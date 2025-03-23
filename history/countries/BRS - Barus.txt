@@ -2,12 +2,12 @@ government = monarchy
 add_government_reform = mandala_reform
 government_rank = 1
 technology_group = chinese
-religion = hinduism
+religion = catholic
 primary_culture = sumatran
 capital = 4811
 religious_school = shafii_school
-1444.1.1= {
-	monarch = {
+1444.1.1 = { 
+	monarch = { 
 		name = "Meurah"
 		dynasty = "Barus"
 		adm = 2
@@ -15,8 +15,8 @@ religious_school = shafii_school
 		mil = 1
 	}
 }
-1480.1.1= {
-	monarch = {
+1480.1.1 = { 
+	monarch = { 
 		adm = 3
 		dip = 3
 		mil = 3

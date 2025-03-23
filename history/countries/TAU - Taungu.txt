@@ -2,11 +2,11 @@ government = monarchy
 add_government_reform = mandala_reform
 government_rank = 1
 technology_group = chinese
-religion = buddhism
+religion = catholic
 primary_culture = burmese
 capital = 585
-1399.1.1= {
-	monarch = {
+1399.1.1 = { 
+	monarch = { 
 		name = "Min Nemi"
 		dynasty = "Taungu"
 		adm = 2
@@ -14,8 +14,8 @@ capital = 585
 		mil = 2
 	}
 }
-1408.1.1= {
-	monarch = {
+1408.1.1 = { 
+	monarch = { 
 		name = "Letya Zeya Thingyan"
 		dynasty = "Taungu"
 		adm = 1
@@ -23,8 +23,8 @@ capital = 585
 		mil = 1
 	}
 }
-1412.1.1= {
-	monarch = {
+1412.1.1 = { 
+	monarch = { 
 		name = "Thinkhaya I"
 		dynasty = "Taungu"
 		adm = 1
@@ -32,8 +32,8 @@ capital = 585
 		mil = 1
 	}
 }
-1415.1.1= {
-	monarch = {
+1415.1.1 = { 
+	monarch = { 
 		name = "Thinkhaya II"
 		dynasty = "Taungu"
 		adm = 1
@@ -41,8 +41,8 @@ capital = 585
 		mil = 1
 	}
 }
-1419.1.1= {
-	monarch = {
+1419.1.1 = { 
+	monarch = { 
 		name = "Pantaung"
 		dynasty = "Taungu"
 		adm = 1
@@ -50,8 +50,8 @@ capital = 585
 		mil = 0
 	}
 }
-1420.1.1= {
-	monarch = {
+1420.1.1 = { 
+	monarch = { 
 		name = "Thinkhaya III"
 		dynasty = "Taungu"
 		adm = 1
@@ -59,8 +59,8 @@ capital = 585
 		mil = 3
 	}
 }
-1435.1.1= {
-	monarch = {
+1435.1.1 = { 
+	monarch = { 
 		name = "Uzana"
 		dynasty = "Hanthawaddy"
 		adm = 1
@@ -68,8 +68,8 @@ capital = 585
 		mil = 0
 	}
 }
-1436.1.1= {
-	monarch = {
+1436.1.1 = { 
+	monarch = { 
 		name = "Saw Oo II"
 		dynasty = "Hanthawaddy"
 		adm = 1
@@ -77,15 +77,15 @@ capital = 585
 		mil = 0
 	}
 }
-1440.1.1= {
-	monarch = {
+1440.1.1 = { 
+	monarch = { 
 		name = "Tarabya"
 		dynasty = "Taungu"
 		adm = 3
 		dip = 2
 		mil = 4
 	}
-	heir = {
+	heir = { 
 		name = "Minkhaung"
 		monarch_name = "Minkhaung"
 		dynasty = "Taungu"
@@ -97,8 +97,8 @@ capital = 585
 		mil = 1
 	}
 }
-1446.1.2= {
-	monarch = {
+1446.1.2 = { 
+	monarch = { 
 		name = "Minkhaung"
 		dynasty = "Taungu"
 		adm = 1
@@ -106,8 +106,8 @@ capital = 585
 		mil = 1
 	}
 }
-1451.1.1= {
-	monarch = {
+1451.1.1 = { 
+	monarch = { 
 		name = "Minnge Kyawhtin"
 		dynasty = "Taungu"
 		adm = 1
@@ -115,8 +115,8 @@ capital = 585
 		mil = 1
 	}
 }
-1459.1.1= {
-	monarch = {
+1459.1.1 = { 
+	monarch = { 
 		name = "Thiri Zaya Thura"
 		dynasty = "Taungu"
 		adm = 1
@@ -124,8 +124,8 @@ capital = 585
 		mil = 1
 	}
 }
-1466.1.1= {
-	monarch = {
+1466.1.1 = { 
+	monarch = { 
 		name = "Letya Zala Thingyan"
 		dynasty = "Taungu"
 		adm = 1
@@ -133,8 +133,8 @@ capital = 585
 		mil = 1
 	}
 }
-1470.1.1= {
-	monarch = {
+1470.1.1 = { 
+	monarch = { 
 		name = "Sithu Kyawhtin"
 		dynasty = "Taungu"
 		adm = 2
@@ -142,8 +142,8 @@ capital = 585
 		mil = 4
 	}
 }
-1470.1.1= {
-	heir = {
+1470.1.1 = { 
+	heir = { 
 		name = "Min Sithu"
 		monarch_name = "Min Sithu"
 		dynasty = "Taungu"
@@ -155,8 +155,8 @@ capital = 585
 		mil = 4
 	}
 }
-1481.1.1= {
-	monarch = {
+1481.1.1 = { 
+	monarch = { 
 		name = "Min Sithu"
 		dynasty = "Taungu"
 		adm = 1
@@ -164,8 +164,8 @@ capital = 585
 		mil = 1
 	}
 }
-1481.1.1= {
-	heir = {
+1481.1.1 = { 
+	heir = { 
 		name = "Mingyinyo"
 		monarch_name = "Mingyinyo"
 		dynasty = "Taungu"
@@ -177,8 +177,8 @@ capital = 585
 		mil = 4
 	}
 }
-1485.4.1= {
-	monarch = {
+1485.4.1 = { 
+	monarch = { 
 		name = "Mingyinyo"
 		dynasty = "Taungu"
 		adm = 5
@@ -186,8 +186,8 @@ capital = 585
 		mil = 4
 	}
 }
-1517.4.1= {
-	heir = {
+1517.4.1 = { 
+	heir = { 
 		name = "Tabinshwehti"
 		monarch_name = "Tabinshwehti"
 		dynasty = "Taungu"
@@ -199,8 +199,8 @@ capital = 585
 		mil = 6
 	}
 }
-1530.10.26= {
-	monarch = {
+1530.10.26 = { 
+	monarch = { 
 		name = "Tabinshwehti"
 		dynasty = "Taungu"
 		adm = 4
@@ -208,12 +208,12 @@ capital = 585
 		mil = 6
 	}
 }
-1530.10.26= {
-	leader = {	name = "Minye Thihathu"		type = general	fire = 2	shock = 2	manuever = 1	siege = 0	death_date = 1551.1.11 }
+1530.10.26 = { 
+	leader = { name = "Minye Thihathu" type = general fire = 2 shock = 2 manuever = 1 siege = 0 death_date = 1551.1.11 }
 }
-1539.1.1= { capital = 586 }
-1540.1.1= {
-	heir = {
+1539.1.1 = { capital = 586 }
+1540.1.1 = { 
+	heir = { 
 		name = "Minye Thihathu"
 		monarch_name = "Minye Thihathu"
 		dynasty = "Taungu"
@@ -225,8 +225,8 @@ capital = 585
 		mil = 2
 	}
 }
-1549.3.1= {
-	heir = {
+1549.3.1 = { 
+	heir = { 
 		name = "Bayinnaung"
 		monarch_name = "Bayinnaung"
 		dynasty = "Taungu"
@@ -236,21 +236,21 @@ capital = 585
 		adm = 5
 		dip = 4
 		mil = 6
-		leader = { name = "Bayinnaung"	type = general	fire = 5	shock = 3	manuever = 3	siege = 2 }
+		leader = { name = "Bayinnaung" type = general fire = 5 shock = 3 manuever = 3 siege = 2 }
 	}
 }
-1550.4.30= {
-	monarch = {
+1550.4.30 = { 
+	monarch = { 
 		name = "Bayinnaung"
 		dynasty = "Taungu"
 		adm = 5
 		dip = 4
 		mil = 6
-		leader = { name = "Bayinnaung"	type = general	fire = 5	shock = 3	manuever = 3	siege = 2 }
+		leader = { name = "Bayinnaung" type = general fire = 5 shock = 3 manuever = 3 siege = 2 }
 	}
 }
-1551.1.11= {
-	heir = {
+1551.1.11 = { 
+	heir = { 
 		name = "Nanda Bayin"
 		monarch_name = "Nanda Bayin"
 		dynasty = "Taungu"
@@ -262,8 +262,8 @@ capital = 585
 		mil = 2
 	}
 }
-1581.11.9= {
-	monarch = {
+1581.11.9 = { 
+	monarch = { 
 		name = "Nanda Bayin"
 		dynasty = "Taungu"
 		adm = 1
@@ -271,8 +271,8 @@ capital = 585
 		mil = 2
 	}
 }
-1581.11.9= {
-	heir = {
+1581.11.9 = { 
+	heir = { 
 		name = "Nyaungyan"
 		monarch_name = "Nyaungyan"
 		dynasty = "Nyaungyan"
@@ -284,8 +284,8 @@ capital = 585
 		mil = 4
 	}
 }
-1599.11.9= {
-	monarch = {
+1599.11.9 = { 
+	monarch = { 
 		name = "Nyaungyan Min"
 		dynasty = "Nyaungyan"
 		adm = 4
@@ -293,8 +293,8 @@ capital = 585
 		mil = 4
 	}
 }
-1599.11.9= {
-	heir = {
+1599.11.9 = { 
+	heir = { 
 		name = "Anaukpetlun"
 		monarch_name = "Anaukpetlun"
 		dynasty = "Nyaungyan"
@@ -306,8 +306,8 @@ capital = 585
 		mil = 5
 	}
 }
-1606.3.3= {
-	monarch = {
+1606.3.3 = { 
+	monarch = { 
 		name = "Anaukpetlun"
 		dynasty = "Nyaungyan"
 		adm = 5
@@ -315,8 +315,8 @@ capital = 585
 		mil = 5
 	}
 }
-1608.1.1= {
-	heir = {
+1608.1.1 = { 
+	heir = { 
 		name = "Minyedeippa"
 		monarch_name = "Minyedeippa"
 		dynasty = "Nyaungyan"
@@ -328,8 +328,8 @@ capital = 585
 		mil = 1
 	}
 }
-1628.7.9= {
-	monarch = {
+1628.7.9 = { 
+	monarch = { 
 		name = "Minredeippa"
 		dynasty = "Nyaungyan"
 		adm = 1
@@ -337,8 +337,8 @@ capital = 585
 		mil = 1
 	}
 }
-1628.7.9= {
-	heir = {
+1628.7.9 = { 
+	heir = { 
 		name = "Thalun"
 		monarch_name = "Thaulun"
 		dynasty = "Nyaungyan"
@@ -350,8 +350,8 @@ capital = 585
 		mil = 2
 	}
 }
-1629.8.19= {
-	monarch = {
+1629.8.19 = { 
+	monarch = { 
 		name = "Thalun"
 		dynasty = "Nyaungyan"
 		adm = 0
@@ -359,8 +359,8 @@ capital = 585
 		mil = 2
 	}
 }
-1629.8.19= {
-	heir = {
+1629.8.19 = { 
+	heir = { 
 		name = "Pindale"
 		monarch_name = "Pindale"
 		dynasty = "Nyaungyan"
@@ -372,8 +372,8 @@ capital = 585
 		mil = 0
 	}
 }
-1647.8.27= {
-	monarch = {
+1647.8.27 = { 
+	monarch = { 
 		name = "Pindale"
 		dynasty = "Nyaungyan"
 		adm = 1
@@ -381,8 +381,8 @@ capital = 585
 		mil = 0
 	}
 }
-1647.8.27= {
-	heir = {
+1647.8.27 = { 
+	heir = { 
 		name = "Pye"
 		monarch_name = "Pye"
 		dynasty = "Nyaungyan"
@@ -394,8 +394,8 @@ capital = 585
 		mil = 1
 	}
 }
-1661.6.3= {
-	monarch = {
+1661.6.3 = { 
+	monarch = { 
 		name = "Pye"
 		dynasty = "Nyaungyan"
 		adm = 1
@@ -403,8 +403,8 @@ capital = 585
 		mil = 1
 	}
 }
-1661.6.3= {
-	heir = {
+1661.6.3 = { 
+	heir = { 
 		name = "Narawara"
 		monarch_name = "Narawara"
 		dynasty = "Nyaungyan"
@@ -416,8 +416,8 @@ capital = 585
 		mil = 0
 	}
 }
-1672.4.14= {
-	monarch = {
+1672.4.14 = { 
+	monarch = { 
 		name = "Narawara"
 		dynasty = "Nyaungyan"
 		adm = 0
@@ -425,8 +425,8 @@ capital = 585
 		mil = 0
 	}
 }
-1673.2.27= {
-	monarch = {
+1673.2.27 = { 
+	monarch = { 
 		name = "Minyekyawdin"
 		dynasty = "Nyaungyan"
 		adm = 0
@@ -434,8 +434,8 @@ capital = 585
 		mil = 1
 	}
 }
-1673.4.1= {
-	heir = {
+1673.4.1 = { 
+	heir = { 
 		name = "Sanay"
 		monarch_name = "Sanay"
 		dynasty = "Nyaungyan"
@@ -447,8 +447,8 @@ capital = 585
 		mil = 0
 	}
 }
-1698.5.4= {
-	monarch = {
+1698.5.4 = { 
+	monarch = { 
 		name = "Sanay"
 		dynasty = "Nyaungyan"
 		adm = 1
@@ -456,8 +456,8 @@ capital = 585
 		mil = 0
 	}
 }
-1698.5.4= {
-	heir = {
+1698.5.4 = { 
+	heir = { 
 		name = "Taninganway"
 		monarch_name = "Taninganway"
 		dynasty = "Nyaungyan"
@@ -469,8 +469,8 @@ capital = 585
 		mil = 0
 	}
 }
-1714.9.12= {
-	monarch = {
+1714.9.12 = { 
+	monarch = { 
 		name = "Taninganway"
 		dynasty = "Nyaungyan"
 		adm = 1
@@ -478,8 +478,8 @@ capital = 585
 		mil = 0
 	}
 }
-1714.9.12= {
-	heir = {
+1714.9.12 = { 
+	heir = { 
 		name = "Mahadhammaraza Dipadi"
 		monarch_name = "Mahadhammaraza Dipadi"
 		dynasty = "Nyaungyan"
@@ -491,8 +491,8 @@ capital = 585
 		mil = 0
 	}
 }
-1733.12.12= {
-	monarch = {
+1733.12.12 = { 
+	monarch = { 
 		name = "Mahadhammaraza Dipadi"
 		dynasty = "Nyaungyan"
 		adm = 0
@@ -500,8 +500,8 @@ capital = 585
 		mil = 0
 	}
 }
-1752.2.28= {
-	monarch = {
+1752.2.28 = { 
+	monarch = { 
 		name = "Alaungpaya"
 		dynasty = "Konbaung"
 		adm = 5
@@ -509,8 +509,8 @@ capital = 585
 		mil = 5
 	}
 }
-1752.2.28= {
-	heir = {
+1752.2.28 = { 
+	heir = { 
 		name = "Naugdawgyi"
 		monarch_name = "Naugdawgyi"
 		dynasty = "Konbaung"
@@ -522,8 +522,8 @@ capital = 585
 		mil = 0
 	}
 }
-1760.5.11= {
-	monarch = {
+1760.5.11 = { 
+	monarch = { 
 		name = "Naugdawgyi"
 		dynasty = "Konbaung"
 		adm = 0
@@ -531,8 +531,8 @@ capital = 585
 		mil = 0
 	}
 }
-1760.5.11= {
-	heir = {
+1760.5.11 = { 
+	heir = { 
 		name = "Hsinbyushin"
 		monarch_name = "Hsinbyushin"
 		dynasty = "Konbaung"
@@ -544,8 +544,8 @@ capital = 585
 		mil = 5
 	}
 }
-1763.11.28= {
-	monarch = {
+1763.11.28 = { 
+	monarch = { 
 		name = "Hsinbyushin"
 		dynasty = "Konbaung"
 		adm = 3
@@ -553,8 +553,8 @@ capital = 585
 		mil = 5
 	}
 }
-1763.11.28= {
-	heir = {
+1763.11.28 = { 
+	heir = { 
 		name = "Singu"
 		monarch_name = "Singu"
 		dynasty = "Konbaung"
@@ -566,8 +566,8 @@ capital = 585
 		mil = 0
 	}
 }
-1776.6.10= {
-	monarch = {
+1776.6.10 = { 
+	monarch = { 
 		name = "Singu"
 		dynasty = "Konbaung"
 		adm = 0
@@ -575,8 +575,8 @@ capital = 585
 		mil = 0
 	}
 }
-1776.6.10= {
-	heir = {
+1776.6.10 = { 
+	heir = { 
 		name = "Phaungkaza"
 		monarch_name = "Phaungkaza"
 		dynasty = "Konbaung"
@@ -588,8 +588,8 @@ capital = 585
 		mil = 0
 	}
 }
-1782.2.6= {
-	monarch = {
+1782.2.6 = { 
+	monarch = { 
 		name = "Phaungkaza"
 		dynasty = "Konbaung"
 		adm = 0
@@ -597,8 +597,8 @@ capital = 585
 		mil = 0
 	}
 }
-1782.2.6= {
-	heir = {
+1782.2.6 = { 
+	heir = { 
 		name = "Bodawpaya"
 		monarch_name = "Bodawpaya"
 		dynasty = "Konbaung"
@@ -610,8 +610,8 @@ capital = 585
 		mil = 3
 	}
 }
-1782.2.11= {
-	monarch = {
+1782.2.11 = { 
+	monarch = { 
 		name = "Bodawpaya"
 		dynasty = "Konbaung"
 		adm = 4
@@ -619,8 +619,8 @@ capital = 585
 		mil = 3
 	}
 }
-1784.7.23= {
-	heir = {
+1784.7.23 = { 
+	heir = { 
 		name = "Bagyidaw"
 		monarch_name = "Bagyidaw"
 		dynasty = "Konbaung"
@@ -632,8 +632,8 @@ capital = 585
 		mil = 4
 	}
 }
-1787.3.14= {
-	heir = {
+1787.3.14 = { 
+	heir = { 
 		name = "Tharrawaddy"
 		monarch_name = "Tharrawaddy"
 		dynasty = "Konbaung"
@@ -645,8 +645,8 @@ capital = 585
 		mil = 1
 	}
 }
-1819.6.5= {
-	monarch = {
+1819.6.5 = { 
+	monarch = { 
 		name = "Bagyidaw"
 		dynasty = "Konbaung"
 		adm = 2

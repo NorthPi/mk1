@@ -19,5 +19,5 @@ discovered_by = nomad_group
 discovered_by = ottoman
 discovered_by = western
 add_core = BAH
-fort_15th = yes
 hre = yes
+fort_15th = yes

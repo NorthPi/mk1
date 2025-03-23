@@ -2,13 +2,13 @@ government = monarchy
 add_government_reform = autocracy_reform
 government_rank = 1
 technology_group = indian
-religion = hinduism
+religion = catholic
 primary_culture = tamil
 capital = 4440
 add_accepted_culture = sumpa
 add_accepted_culture = tibetan
-1444.11.11= {
-	monarch = {
+1444.11.11 = { 
+	monarch = { 
 		name = "Puvirâca"
 		dynasty = "Kotolik"
 		adm = 2
@@ -20,7 +20,7 @@ add_accepted_culture = tibetan
 	}
 	add_ruler_personality = industrious_personality
 	add_ruler_personality = silver_tongue_personality
-	queen = {
+	queen = { 
 		name = "Irâcâticci"
 		dynasty = "Kotolik"
 		adm = 3
@@ -35,7 +35,7 @@ add_accepted_culture = tibetan
 	}
 	add_queen_personality = careful_personality
 	add_queen_personality = tolerant_personality
-	heir = {
+	heir = { 
 		name = "Puvirâca"
 		monarch_name = "Puvirâca II"
 		dynasty = "Kotolik"
@@ -51,7 +51,7 @@ add_accepted_culture = tibetan
 	add_heir_personality = fierce_negotiator_personality
 	add_heir_personality = tolerant_personality
 }
-1444.11.11= {
+1444.11.11 = { 
 	add_prestige = 97
 	add_treasury = 69
 }

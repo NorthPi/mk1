@@ -2,12 +2,12 @@ government = monarchy
 add_government_reform = plutocratic_reform
 government_rank = 1
 technology_group = indian
-religion = hinduism
+religion = catholic
 primary_culture = tamil
 capital = 540
 mercantilism = 15
-1444.11.11= {
-	monarch = {
+1444.11.11 = { 
+	monarch = { 
 		name = "Vikramâtittâ"
 		dynasty = "Kotolik"
 		adm = 2
@@ -19,7 +19,7 @@ mercantilism = 15
 	}
 	add_ruler_personality = inspiring_leader_personality
 	add_ruler_personality = well_connected_personality
-	queen = {
+	queen = { 
 		name = "Irâcinkam"
 		dynasty = "Kotolik"
 		adm = 2
@@ -34,7 +34,7 @@ mercantilism = 15
 	}
 	add_queen_personality = free_thinker_personality
 	add_queen_personality = secretive_personality
-	heir = {
+	heir = { 
 		name = "Atirâcêntira"
 		monarch_name = "Atirâcêntira"
 		dynasty = "Kotolik"
@@ -50,7 +50,7 @@ mercantilism = 15
 	add_heir_personality = intricate_web_weaver_personality
 	add_heir_personality = secretive_personality
 }
-1444.11.11= {
+1444.11.11 = { 
 	add_prestige = 99
 	add_treasury = 62
 }

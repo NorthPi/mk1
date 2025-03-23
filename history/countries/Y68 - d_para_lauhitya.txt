@@ -2,12 +2,12 @@ government = monarchy
 add_government_reform = nayankara_reform
 government_rank = 1
 technology_group = indian
-religion = hinduism
+religion = catholic
 primary_culture = malayalam
 capital = 570
 add_accepted_culture = oriya
-1444.11.11= {
-	monarch = {
+1444.11.11 = { 
+	monarch = { 
 		name = "Nilammai"
 		dynasty = "Kotolik"
 		adm = 4
@@ -21,7 +21,7 @@ add_accepted_culture = oriya
 	add_ruler_personality = tactical_genius_personality
 	add_ruler_personality = tolerant_personality
 }
-1444.11.11= {
+1444.11.11 = { 
 	add_prestige = 91
 	add_treasury = 68
 }

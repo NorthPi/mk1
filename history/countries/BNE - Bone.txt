@@ -2,11 +2,11 @@ government = monarchy
 add_government_reform = plutocratic_reform
 government_rank = 1
 technology_group = chinese
-religion = animism
+religion = catholic
 primary_culture = sulawesi
 capital = 4795
-1444.1.1= {
-	monarch = {
+1444.1.1 = { 
+	monarch = { 
 		name = "Tumassalangga"
 		dynasty = "Bone"
 		adm = 4
@@ -14,8 +14,8 @@ capital = 4795
 		mil = 4
 	}
 }
-1480.1.1= {
-	monarch = {
+1480.1.1 = { 
+	monarch = { 
 		adm = 3
 		dip = 3
 		mil = 3
