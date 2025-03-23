@@ -1,0 +1,3 @@
+discovered_by = chinese
+religion = catholic
+is_city = no
