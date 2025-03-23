@@ -12565,9 +12565,9 @@ holy_city_kairouan = {
 	type = monument
 
 	build_trigger = {
-		province_is_or_accepts_religion_group = {
-			religion_group = muslim
 		}
+		province_is_or_accepts_religion_group = {
+			religion_group = arian
 	}
 
 	on_built = {
@@ -12578,13 +12578,13 @@ holy_city_kairouan = {
 
 	can_use_modifiers_trigger = {
 		province_is_or_accepts_religion_group = {
-			religion_group = muslim
+			religion_group = arian
 		}
 	}
 
 	can_upgrade_trigger = {
 		province_is_or_accepts_religion_group = {
-			religion_group = muslim
+			religion_group = arian
 		}
 	}
 
@@ -19616,5 +19616,129 @@ citadel_of_aleppo = {
 		country_modifiers = {
 		}
 		on_upgraded = {}
+	}
+}
+
+carthaginian_lighthouse = {
+	start = 341
+	date = 500.01.01
+	time = { months = 180 }
+	build_cost = 600
+	can_be_moved = no
+	move_days_per_unit_distance = 2
+	starting_tier = 1
+	type = monument
+
+	build_trigger = {
+		OR = {
+			culture = punic
+			owner = { accepted_culture = punic }
+		}
+	}
+
+	can_use_modifiers_trigger = {
+		OR = {
+			culture = punic
+			owner = { accepted_culture = punic }
+		}
+	}
+
+	can_upgrade_trigger = {
+		OR = {
+			culture = punic
+			owner = { accepted_culture = punic }
+		}
+	}
+
+	keep_trigger = {}
+
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+		cost_to_upgrade = {
+			factor = 0
+		}
+		province_modifiers = {}
+		area_modifier = {}
+		country_modifiers = {}
+	}
+
+	tier_1 = {
+		upgrade_time = {
+			months = 150
+		}
+		cost_to_upgrade = {
+			factor = 800
+		}
+		province_modifiers = {
+			trade_value_modifier = 0.1
+			province_trade_power_modifier = 0.05
+			naval_morale = 0.05
+		}
+		area_modifier = {}
+		country_modifiers = {}
+		on_upgraded = {
+			add_or_upgrade_trade_building = yes
+		}
+	}
+
+	tier_2 = {
+		upgrade_time = {
+			months = 300
+		}
+		cost_to_upgrade = {
+			factor = 1200
+		}
+		province_modifiers = {
+			trade_value_modifier = 0.15
+			naval_morale = 0.1
+		}
+		area_modifier = {
+			province_trade_power_modifier = 0.1
+		}
+		country_modifiers = {
+			naval_attrition = -0.10
+		}
+		on_upgraded = {
+			add_or_upgrade_trade_building = yes
+		}
+	}
+
+	tier_3 = {
+		upgrade_time = {
+			months = 500
+		}
+		cost_to_upgrade = {
+			factor = 2500
+		}
+		province_modifiers = {
+			trade_value_modifier = 0.2
+		}
+		area_modifier = {}
+		region_modifier = {
+			province_trade_power_modifier = 0.2
+		}
+		country_modifiers = {
+			naval_attrition = -0.15
+			naval_morale = 0.15
+		}
+		on_upgraded = {
+			add_or_upgrade_trade_building = yes
+		}
+		conditional_modifier = {
+			trigger = {
+				custom_trigger_tooltip = {
+					ooltip = CARTHAGE_COMPLETED_LIGHTHOUSE_MISSION
+					owner = {
+						has_country_flag = carthage_lighthouse_conditional_modifier_flag
+					}
+				}
+			}
+			modifier = {
+				trade_steering = 0.2
+				naval_forcelimit_modifier = 0.1
+			}
+		}
 	}
 }
