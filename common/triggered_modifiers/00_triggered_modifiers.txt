@@ -1497,4 +1497,88 @@ heavy_ship_colonisation = {
 	}
 	global_colonial_growth = 100
 	colonist_placement_chance = 0.20
+
+}
+kth_alexandrian_trade = {
+	potential = {
+		tag = Z04
+	}
+
+	trigger = {
+		tag = Z04
+		owns_core_province = 341
+		custom_trigger_tooltip = {
+			tooltip = kth_home_trade_node_is_tunis_tt
+			home_trade_node = {
+				province_id = 341
+			}
+		}
+		OR = {
+			any_active_trade_node = {
+				has_merchant = ROOT
+				province_id = 358
+			}			
+			341 = {
+				province_has_center_of_trade_of_level = 3
+			}
+		}
+	}
+	global_tax_income = 24
+}
+kth_aleppo_trade = {
+	potential = {
+		
+	}
+
+	trigger = {
+		tag = Z04
+		owns_core_province = 341
+		custom_trigger_tooltip = {
+			tooltip = kth_home_trade_node_is_tunis_tt
+			home_trade_node = {
+				province_id = 341
+			}
+		}
+		OR = {
+			any_active_trade_node = {
+				has_merchant = ROOT
+				province_id = 377
+			}
+			358 = {
+				province_has_center_of_trade_of_level = 3
+				owned_by = ROOT
+			}
+		}
+
+	}
+	global_tax_income = 12
+}
+
+kth_safi_trade = {
+	potential = {
+		
+	}
+
+	trigger = {
+		tag = Z04
+		owns_core_province = 341
+		custom_trigger_tooltip = {
+			tooltip = kth_home_trade_node_is_tunis_tt
+			home_trade_node = {
+				province_id = 341
+			}
+		}
+		OR = {
+			any_active_trade_node = {
+				has_merchant = ROOT
+				province_id = 1110
+			}
+			1110 = {
+				province_has_center_of_trade_of_level = 3
+				owned_by = ROOT
+			}
+		}
+
+	}
+	global_tax_income = 12
 }
