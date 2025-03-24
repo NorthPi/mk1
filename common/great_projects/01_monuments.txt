@@ -19729,7 +19729,7 @@ carthaginian_lighthouse = {
 		conditional_modifier = {
 			trigger = {
 				custom_trigger_tooltip = {
-					ooltip = CARTHAGE_COMPLETED_LIGHTHOUSE_MISSION
+					tooltip = CARTHAGE_COMPLETED_LIGHTHOUSE_MISSION
 					owner = {
 						has_country_flag = carthage_lighthouse_conditional_modifier_flag
 					}
@@ -19742,386 +19742,175 @@ carthaginian_lighthouse = {
 		}
 	}
 }
- carthaginian_port = {
-	start = 341
-	date = 500.01.01
-	time = { months = 180 }
-	build_cost = 1000
-	can_be_moved = no
-	move_days_per_unit_distance = 2
-	starting_tier = 1
-	type = monument
+carthaginian_port = {
+    start = 341
+    date = 500.01.01
+    time = { months = 180 }
+    build_cost = 1000
+    can_be_moved = no
+    move_days_per_unit_distance = 2
+    starting_tier = 1
+    type = monument
 
+    keep_trigger = {}
 
-	keep_trigger = {}
+    tier_0 = {
+        upgrade_time = { months = 0 }
+        cost_to_upgrade = { factor = 0 }
+        province_modifiers = {}
+        area_modifier = {}
+        country_modifiers = {}
+    }
 
-	tier_0 = {
-		upgrade_time = {
-			months = 0
-		}
-		cost_to_upgrade = {
-			factor = 0
-		}
-		province_modifiers = {}
-		area_modifier = {}
-		country_modifiers = {}
-	}
-
-	tier_1 = {
-		upgrade_time = {
-			months = 150
-		}
-		cost_to_upgrade = {
-			factor = 800
-		}
-		province_modifiers = {}
+    tier_1 = {
+        upgrade_time = { months = 150 }
+        cost_to_upgrade = { factor = 800 }
+        province_modifiers = {}
         area_modifier = {}
         country_modifiers = {
             naval_durability = 0.25
             naval_morale = 0.15
         }
-		area_modifier = {}
-		country_modifiers = {}
-		on_upgraded = {
-			add_or_upgrade_trade_building = yes
-		}
-	}
+        on_upgraded = { add_or_upgrade_trade_building = yes }
+    }
 
-	tier_2 = {
-		upgrade_time = {
-			months = 300
-		}
-		cost_to_upgrade = {
-			factor = 2200
-		}
-		province_modifiers = {}
+    tier_2 = {
+        upgrade_time = { months = 300 }
+        cost_to_upgrade = { factor = 2200 }
+        province_modifiers = {}
         area_modifier = {}
         country_modifiers = {
             naval_durability = 0.35
             naval_morale = 0.45
         }
-		on_upgraded = {
-			add_or_upgrade_trade_building = yes
-		}
-	}
+        on_upgraded = { add_or_upgrade_trade_building = yes }
+    }
 
-	tier_3 = {
-		upgrade_time = {
-			months = 500
-		}
-		cost_to_upgrade = {
-			factor = 3500
-		}
-		province_modifiers = {}
+    tier_3 = {
+        upgrade_time = { months = 500 }
+        cost_to_upgrade = { factor = 3500 }
+        province_modifiers = {}
         area_modifier = {}
         country_modifiers = {
             naval_durability = 0.5
             naval_morale = 0.5
+            trade_steering = 0.2
+            naval_forcelimit_modifier = 0.1
         }
-		on_upgraded = {
-			add_or_upgrade_trade_building = yes
-		}
-		conditional_modifier = {
-			trigger = {
-				custom_trigger_tooltip = {
-					ooltip = CARTHAGE_COMPLETED_LIGHTHOUSE_MISSION
-					owner = {
-						has_country_flag = carthage_lighthouse_conditional_modifier_flag
-					}
-				}
-			}
-			modifier = {
-				trade_steering = 0.2
-				naval_forcelimit_modifier = 0.1
-			}
-		}
-	}
+        on_upgraded = { add_or_upgrade_trade_building = yes }
+    }
 }
 
- jew_house = {
-	start = 379
-	date = 500.01.01
-	time = { months = 180 }
-	build_cost = 1000
-	can_be_moved = no
-	move_days_per_unit_distance = 2
-	starting_tier = 1
-	type = monument
+jew_house = {
+    start = 379
+    date = 500.01.01
+    time = { months = 180 }
+    build_cost = 1000
+    can_be_moved = no
+    move_days_per_unit_distance = 2
+    starting_tier = 1
+    type = monument
 
+    keep_trigger = {}
 
-	keep_trigger = {}
+    tier_0 = {
+        upgrade_time = { months = 0 }
+        cost_to_upgrade = { factor = 0 }
+        province_modifiers = {}
+        area_modifier = {}
+        country_modifiers = {}
+    }
 
-	tier_0 = {
-		upgrade_time = {
-			months = 0
-		}
-		cost_to_upgrade = {
-			factor = 0
-		}
-		province_modifiers = {}
-		area_modifier = {}
-		country_modifiers = {}
-	}
-
-	tier_1 = {
-		upgrade_time = {
-			months = 150
-		}
-		cost_to_upgrade = {
-			factor = 800
-		}
-		province_modifiers = {}
+    tier_1 = {
+        upgrade_time = { months = 150 }
+        cost_to_upgrade = { factor = 800 }
+        province_modifiers = {}
         area_modifier = {}
         country_modifiers = {
-            stability_cost_modifier = -0.25
-            global_missionary_strength = 0.25
-		area_modifier = {}
-		country_modifiers = {}
-		on_upgraded = {
-			add_or_upgrade_trade_building = yes
-		}
-	}
-	}
-
-	tier_2 = {
-		upgrade_time = {
-			months = 300
-		}
-		cost_to_upgrade = {
-			factor = 2200
-		}
-		province_modifiers = {}
-        area_modifier = {}
-        country_modifiers = {
-            stability_cost_modifier = -0.35
-            global_missionary_strength = 0.35
+            stability_cost_modifier = -0.025
+            global_missionary_strength = 0.025
         }
-		on_upgraded = {
-			add_or_upgrade_trade_building = yes
-		}
-	}
+        on_upgraded = { add_or_upgrade_trade_building = yes }
+    }
 
-	tier_3 = {
-		upgrade_time = {
-			months = 500
-		}
-		cost_to_upgrade = {
-			factor = 3500
-		}
-		province_modifiers = {}
+    tier_2 = {
+        upgrade_time = { months = 300 }
+        cost_to_upgrade = { factor = 2200 }
+        province_modifiers = {}
         area_modifier = {}
         country_modifiers = {
-            stability_cost_modifier = -0.5
-            global_missionary_strength = 0.5
-		on_upgraded = {
-			add_or_upgrade_trade_building = yes
-		}
-		conditional_modifier = {
-			trigger = {
-				custom_trigger_tooltip = {
-					ooltip = CARTHAGE_COMPLETED_LIGHTHOUSE_MISSION
-					owner = {
-						has_country_flag = carthage_lighthouse_conditional_modifier_flag
-					}
-				}
-			}
-			modifier = {
-				trade_steering = 0.2
-				naval_forcelimit_modifier = 0.1
-			}
-		}
-		}
-		}
-		}
- London_house = {
-	start = 236
-	date = 500.01.01
-	time = { months = 180 }
-	build_cost = 1000
-	can_be_moved = no
-	move_days_per_unit_distance = 2
-	starting_tier = 1
-	type = monument
-
-
-	keep_trigger = {}
-
-	tier_0 = {
-		upgrade_time = {
-			months = 0
-		}
-		cost_to_upgrade = {
-			factor = 0
-		}
-		province_modifiers = {}
-		area_modifier = {}
-		country_modifiers = {}
-	}
-
-	tier_1 = {
-		upgrade_time = {
-			months = 150
-		}
-		cost_to_upgrade = {
-			factor = 800
-		}
-		province_modifiers = {}
-        area_modifier = {}
-        country_modifiers = {
-            build_cost = -0.15
-            development_cost = -0.1
+            stability_cost_modifier = -0.035
+            global_missionary_strength = 0.035
         }
-		area_modifier = {}
-		country_modifiers = {}
-		on_upgraded = {
-			add_or_upgrade_trade_building = yes
-		}
-	}
+        on_upgraded = { add_or_upgrade_trade_building = yes }
+    }
 
-	tier_2 = {
-		upgrade_time = {
-			months = 300
-		}
-		cost_to_upgrade = {
-			factor = 2200
-		}
-		 province_modifiers = {}
+    tier_3 = {
+        upgrade_time = { months = 500 }
+        cost_to_upgrade = { factor = 3500 }
+        province_modifiers = {}
         area_modifier = {}
         country_modifiers = {
-            build_cost = -0.25
-            development_cost = -0.2
+            stability_cost_modifier = -0.05
+            global_missionary_strength = 0.05
         }
-		on_upgraded = {
-			add_or_upgrade_trade_building = yes
-		}
-	}
-
-	tier_3 = {
-		upgrade_time = {
-			months = 500
-		}
-		cost_to_upgrade = {
-			factor = 3500
-		}
-		 province_modifiers = {}
-        area_modifier = {}
-        country_modifiers = {
-            build_cost = -0.5
-            development_cost = -0.5
-        }
-		on_upgraded = {
-			add_or_upgrade_trade_building = yes
-		}
-		conditional_modifier = {
-			trigger = {
-				custom_trigger_tooltip = {
-					ooltip = CARTHAGE_COMPLETED_LIGHTHOUSE_MISSION
-					owner = {
-						has_country_flag = carthage_lighthouse_conditional_modifier_flag
-					}
-				}
-			}
-			modifier = {
-				trade_steering = 0.2
-				naval_forcelimit_modifier = 0.1
-			}
-		}
-	}
-}
- Massilia_house = {
-	start = 201
-	date = 500.01.01
-	time = { months = 180 }
-	build_cost = 1000
-	can_be_moved = no
-	move_days_per_unit_distance = 2
-	starting_tier = 1
-	type = monument
-
-
-	keep_trigger = {}
-
-	tier_0 = {
-		upgrade_time = {
-			months = 0
-		}
-		cost_to_upgrade = {
-			factor = 0
-		}
-		province_modifiers = {}
-		area_modifier = {}
-		country_modifiers = {}
-	}
-
-	tier_1 = {
-		upgrade_time = {
-			months = 150
-		}
-		cost_to_upgrade = {
-			factor = 800
-		}
-		province_modifiers = {}
-        area_modifier = {}
-        country_modifiers = {
-            infantry_power = 0.15
-			discipline = 0.05
-        }
-		area_modifier = {}
-		country_modifiers = {}
-		on_upgraded = {
-			add_or_upgrade_trade_building = yes
-		}
-	}
-
-	tier_2 = {
-		upgrade_time = {
-			months = 300
-		}
-		cost_to_upgrade = {
-			factor = 2200
-		}
-		province_modifiers = {}
-        area_modifier = {}
-        country_modifiers = {
-            infantry_power = 0.25
-			discipline = 0.06
-        }
-		on_upgraded = {
-			add_or_upgrade_trade_building = yes
-		}
-	}
-
-	tier_3 = {
-		upgrade_time = {
-			months = 500
-		}
-		cost_to_upgrade = {
-			factor = 3500
-		}
-		province_modifiers = {}
-        area_modifier = {}
-        country_modifiers = {
-            infantry_power = 0.35
-			discipline = 0.07
-        }
-		on_upgraded = {
-			add_or_upgrade_trade_building = yes
-		}
-		conditional_modifier = {
-			trigger = {
-				custom_trigger_tooltip = {
-					ooltip = CARTHAGE_COMPLETED_LIGHTHOUSE_MISSION
-					owner = {
-						has_country_flag = carthage_lighthouse_conditional_modifier_flag
-					}
-				}
-			}
-			modifier = {
-				trade_steering = 0.2
-				naval_forcelimit_modifier = 0.1
-			}
-		}
-	}
+        on_upgraded = { add_or_upgrade_trade_building = yes }
+    }
 }
 
+massilia_house = {
+    start = 201
+    date = 500.01.01
+    time = { months = 180 }
+    build_cost = 1000
+    can_be_moved = no
+    move_days_per_unit_distance = 2
+    starting_tier = 1
+    type = monument
 
+    keep_trigger = {}
+
+    tier_0 = {
+        upgrade_time = { months = 0 }
+        cost_to_upgrade = { factor = 0 }
+        province_modifiers = {}
+        area_modifier = {}
+        country_modifiers = {}
+    }
+
+    tier_1 = {
+        upgrade_time = { months = 150 }
+        cost_to_upgrade = { factor = 800 }
+        province_modifiers = {}
+        area_modifier = {}
+        country_modifiers = {
+            infantry_power = 0.015
+            discipline = 0.005
+        }
+        on_upgraded = { add_or_upgrade_trade_building = yes }
+    }
+
+    tier_2 = {
+        upgrade_time = { months = 300 }
+        cost_to_upgrade = { factor = 2200 }
+        province_modifiers = {}
+        area_modifier = {}
+        country_modifiers = {
+            infantry_power = 0.025
+            discipline = 0.006
+        }
+        on_upgraded = { add_or_upgrade_trade_building = yes }
+    }
+
+    tier_3 = {
+        upgrade_time = { months = 500 }
+        cost_to_upgrade = { factor = 3500 }
+        province_modifiers = {}
+        area_modifier = {}
+        country_modifiers = {
+            infantry_power = 0.035
+            discipline = 0.007
+        }
+        on_upgraded = { add_or_upgrade_trade_building = yes }
+    }
+}
