@@ -19616,8 +19616,8 @@ carthaginian_port = {
         province_modifiers = {}
         area_modifier = {}
         country_modifiers = {
-            naval_durability = 0.25
-            naval_morale = 0.15
+            naval_durability = 0.025
+            naval_morale = 0.015
         }
         on_upgraded = { add_or_upgrade_trade_building = yes }
     }
@@ -19628,8 +19628,8 @@ carthaginian_port = {
         province_modifiers = {}
         area_modifier = {}
         country_modifiers = {
-            naval_durability = 0.35
-            naval_morale = 0.45
+            naval_durability = 0.035
+            naval_morale = 0.045
         }
         on_upgraded = { add_or_upgrade_trade_building = yes }
     }
@@ -19640,8 +19640,8 @@ carthaginian_port = {
         province_modifiers = {}
         area_modifier = {}
         country_modifiers = {
-            naval_durability = 0.5
-            naval_morale = 0.5
+            naval_durability = 0.05
+            naval_morale = 0.05
             trade_steering = 0.2
             naval_forcelimit_modifier = 0.1
         }
