@@ -16,3 +16,4 @@ discovered_by = nomad_group
 discovered_by = ottoman
 discovered_by = western
 culture = punic
+add_core = Z21
