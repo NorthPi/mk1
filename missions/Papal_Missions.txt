@@ -4,8 +4,8 @@ papal_missions_slot = {
 	ai = yes
 	potential = {
 		NOT = { has_dlc = "Emperor" }
-		tag = PAP
-		NOT = { map_setup = map_setup_random }
+		tag = MAJ
+		
 	}
 	has_country_shield = yes
 
@@ -69,8 +69,8 @@ papal_missions_slot_2 = {
 	ai = yes
 	potential = {
 		NOT = { has_dlc = "Emperor" }
-		tag = PAP
-		NOT = { map_setup = map_setup_random }
+		tag = MAJ
+		
 	}
 	has_country_shield = yes
 	
