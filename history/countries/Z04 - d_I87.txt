@@ -1,5 +1,5 @@
-government = monarchy
-add_government_reform = absolute_british_monarchy
+government = republic
+add_government_reform = kth_oligarchy_reform
 government_rank = 3
 technology_group = western
 religion = arianism
@@ -14,8 +14,8 @@ add_accepted_culture = gothic
 		dip = 1
 		mil = 2
 		birth_date = 1420.3.13
-		religion = heptadic_pagan_reformed
-		culture = saka
+		religion = arianism
+		culture = punic
 	}
 	add_ruler_personality = just_personality
 	add_ruler_personality = strict_personality
@@ -29,8 +29,8 @@ add_accepted_culture = gothic
 		birth_date = 1423.5.7
 		death_date = 1483.5.7
 		female = yes
-		religion = heptadic_pagan_reformed
-		culture = saka
+		religion = arianism
+		culture = punic
 	}
 	add_queen_personality = expansionist_personality
 	add_queen_personality = naive_personality
