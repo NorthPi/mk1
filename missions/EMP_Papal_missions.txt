@@ -7,8 +7,8 @@ emp_pap_slot_1 = {
 	}
 	potential = {
 		has_dlc = "Emperor"
-		NOT = { map_setup = map_setup_random }
-		tag = PAP
+		
+		tag = MAJ
 	}
 	has_country_shield = yes
 	
@@ -19,9 +19,8 @@ emp_pap_slot_1 = {
 		
 		provinces_to_highlight = {
 			OR = {
-				area = central_italy_area
-				area = emilia_romagna_area
-			}
+				area = brunei_area
+				}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 
@@ -31,8 +30,7 @@ emp_pap_slot_1 = {
 				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 					value = 6 # out of 8
 					OR = {
-						area = central_italy_area
-						area = emilia_romagna_area
+						area = brunei_area
 					}
 				}
 			}
@@ -317,8 +315,8 @@ emp_pap_slot_2 = {
 	}
 	potential = {
 		has_dlc = "Emperor"
-		NOT = { map_setup = map_setup_random }
-		tag = PAP
+		
+		tag = MAJ
 	}
 	has_country_shield = yes
 	
@@ -644,8 +642,8 @@ emp_pap_slot_3 = {
 	}
 	potential = {
 		has_dlc = "Emperor"
-		NOT = { map_setup = map_setup_random }
-		tag = PAP
+		
+		tag = MAJ
 	}
 	has_country_shield = yes
 	
@@ -1078,13 +1076,13 @@ emp_pap_slot_3 = {
 				limit = {
 					any_country = {
 						owns = 1020
-						NOT = { tag = PAP }
+						NOT = { tag = MAJ }
 					}
 				}
 				every_country = {
 					limit = {
 						owns = 1020
-						NOT = { tag = PAP }
+						NOT = { tag = MAJ }
 					}
 					country_event = { id = flavor_pap.12 }
 				}
@@ -1108,8 +1106,8 @@ emp_pap_slot_4 = {
 	}
 	potential = {
 		has_dlc = "Emperor"
-		NOT = { map_setup = map_setup_random }
-		tag = PAP
+		
+		tag = MAJ
 	}
 	has_country_shield = yes
 	
@@ -1254,8 +1252,8 @@ emp_pap_slot_5 = {
 	}
 	potential = {
 		has_dlc = "Emperor"
-		NOT = { map_setup = map_setup_random }
-		tag = PAP
+		
+		tag = MAJ
 	}
 	has_country_shield = yes
 	

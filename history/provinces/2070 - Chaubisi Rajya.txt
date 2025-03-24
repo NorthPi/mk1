@@ -1,5 +1,5 @@
-owner = PAP
-controller = PAP
+owner = TIB
+controller = TIB
 capital = "Ghurka"
 is_city = yes
 culture = tibetan
@@ -17,5 +17,4 @@ discovered_by = nomad_group
 discovered_by = ottoman
 discovered_by = western
 add_core = TIB
-add_core = PAP
 hre = yes
