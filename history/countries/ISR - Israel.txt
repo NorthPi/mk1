@@ -15,6 +15,6 @@ add_accepted_culture = sephardi
 		dip = 3
 		mil = 3
 		religion = jewish
-		culture = breton
+		culture = israeli
 	}
 }
