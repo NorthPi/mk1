@@ -216,13 +216,19 @@ country_decisions = {
 		}
 		effect = {
 			country_event  = { id = catholic_flavor.2 }
-			every_province = {
+			malaya_region = {
 				limit = {
-					region = indonesia_region
-					region = malaya_region
 					NOT = { owned_by = ROOT }
+					NOT = { is_permanent_claim = ROOT }
 				}
-				add_permanent_claim = ROOT
+				add_permanent_claim = MSA
+			}
+			indonesia_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = MSA
 			}
 			override_country_name = KINGDOM_OF_GOD
 			set_country_flag = is_kingdom_of_god_flag
@@ -231,5 +237,6 @@ country_decisions = {
 			factor = 1
 		}
 	}
+	
 
 }
