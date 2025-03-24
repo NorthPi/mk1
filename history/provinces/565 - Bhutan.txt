@@ -1,5 +1,5 @@
-owner = PAP
-controller = PAP
+owner = NPL
+controller = NPL
 is_city = yes
 culture = tibetan
 religion = catholic
@@ -16,5 +16,5 @@ discovered_by = nomad_group
 discovered_by = ottoman
 discovered_by = western
 add_core = TIB
-add_core = PAP
 hre = yes
+add_core = NPL

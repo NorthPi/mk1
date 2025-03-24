@@ -1,10 +1,10 @@
 government = theocracy
 add_government_reform = papacy_reform
 government_rank = 2
-technology_group = indian
+technology_group = chinese
 religion = catholic
-primary_culture = tamil
-capital = 4484
+primary_culture = javanese
+capital = 2687
 fixed_capital = 118
 add_army_professionalism = 0.05
 1389.10.15 = { 
