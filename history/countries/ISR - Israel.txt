@@ -1,20 +1,20 @@
 government = republic
-add_government_reform = peasants_repubic
+add_government_reform = peasants_republic
 government_rank = 1
 technology_group = eastern
 religion = jewish
 capital = 379
 fixed_capital = 379
 mercantilism = 10
-add_accepted_culture = sephardi
 primary_culture = israeli
+add_accepted_culture = sephardi
 500.11.11 = { 
 	monarch = { 
 		name = "Ha-Kohen"
 		adm = 3
 		dip = 3
 		mil = 3
-		regent = yes
+		religion = jewish
+		culture = breton
 	}
 }
-add_government_reform = peasants_republic
