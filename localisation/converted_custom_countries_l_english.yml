@@ -13,7 +13,9 @@
  ISR_ADJ:0 "Israeli"
  TEM:0 "Knights Templar"
  TEM_ADJ:0 "Templar"
-
+carthaginian_port:0 "Сarthaginian Port"
+jew_house:0 "Great Sinagoga"
+massilia_house:0 "Castle Red Elephant"
  #New Countries
  ADD:0 "Order of St. Addai"
  ADD_ADJ:0 "St. Addai"
