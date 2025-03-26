@@ -337,6 +337,77 @@ mnd_bei_2 = {
 					NOT = { is_core = ROOT }
 					NOT = {  is_permanent_claim = ROOT }
 				}
+			}
+				add_permanent_claim = ROOT
+			kalimantan_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = {  is_permanent_claim = ROOT }
+				}
+			}
+				add_permanent_claim = ROOT
+			banjar_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = {  is_permanent_claim = ROOT }
+				}
+			}
+				add_permanent_claim = ROOT
+			johor_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = {  is_permanent_claim = ROOT }
+				}
+			}
+				add_permanent_claim = ROOT
+			malacca_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = {  is_permanent_claim = ROOT }
+				}
+			}
+				add_permanent_claim = ROOT
+			malaya_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = {  is_permanent_claim = ROOT }
+				}
+			}
+				add_permanent_claim = ROOT
+			central_sumatra_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = {  is_permanent_claim = ROOT }
+				}
+			}
+				add_permanent_claim = ROOT
+			north_sumatra_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = {  is_permanent_claim = ROOT }
+				}
+			}
+				add_permanent_claim = ROOT
+			batak_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = {  is_permanent_claim = ROOT }
+				}
+			}
+				add_permanent_claim = ROOT
+			minangkabau_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = {  is_permanent_claim = ROOT }
+				}
+			}
+				add_permanent_claim = ROOT
+			south_sumatra_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = {  is_permanent_claim = ROOT }
+				}
+			}
 				add_permanent_claim = ROOT
 			}
 		}
