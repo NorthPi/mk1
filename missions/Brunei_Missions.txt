@@ -37,8 +37,14 @@ mnd_bei_1 = {
 					OR = {
 						area = kalimantan_area
 						area = banjar_area
-						region = malaya_region
-						region = indonesia_region
+						area = johor_area
+						area = malacca_area
+						area = malaya_area
+						area = central_sumatra_area
+						area = north_sumatra_area
+						area = batak_area
+						area = minangkabau_area
+						area = south_sumatra_area
 					}
 				}
 				add_permanent_province_modifier = {
