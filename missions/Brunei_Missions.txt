@@ -3,7 +3,7 @@ mnd_bei_1 = {
 	generic = no
 	ai = yes
 	potential = {
-		tag = BEI
+		tag = PAP
 	}
 	has_country_shield = yes
 	
@@ -290,7 +290,7 @@ mnd_bei_2 = {
 	generic = no
 	ai = yes
 	potential = {
-		tag = BEI
+		tag = PAP
 	}
 	has_country_shield = yes
 	
