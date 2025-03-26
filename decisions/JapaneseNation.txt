@@ -6,6 +6,9 @@ country_decisions = {
 	unite_japan = {
 		major = yes
 		potential = {
+			    capital_scope = {
+					region = japan_region
+				}
 			NOT = { tag = JAP }
 			NOT = { has_country_flag = formed_japan_flag }
 		}
