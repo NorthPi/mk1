@@ -3785,7 +3785,7 @@ GRA_ideas = {
 
 PAP_ideas = {
 	start = {
-		diplomatic_reputation = 1
+		colonists = 1
 		religious_unity = 0.25
 		ae_impact = -0.15
 	}
