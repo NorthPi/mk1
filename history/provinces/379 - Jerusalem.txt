@@ -18,3 +18,4 @@ discovered_by = western
 add_province_triggered_modifier = jerusalem_held
 add_province_triggered_modifier = promised_land_modifier
 fort_15th = yes
+culture = israeli
