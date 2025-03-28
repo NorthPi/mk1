@@ -53,3 +53,4 @@ mercantilism = 15
 	add_prestige = 52
 	add_treasury = 76
 }
+primary_culture = khorasani

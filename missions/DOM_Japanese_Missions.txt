@@ -8,7 +8,6 @@ DOM_japanse_missions_1 = {
 	potential = {
 		tag = JAP 
 		has_dlc = "Domination" 
-		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
 	
