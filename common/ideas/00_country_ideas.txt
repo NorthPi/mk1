@@ -1672,10 +1672,13 @@ POR_ideas = {
 	start = {
 		naval_morale = 0.10
 		range = 0.25
+		reduced_liberty_desire = 60
 	}
 	
 	bonus = {
 		discipline = 0.05
+		land_morale = 0.10
+		artillery_fire = 1 
 	}
 	
 	trigger = {
