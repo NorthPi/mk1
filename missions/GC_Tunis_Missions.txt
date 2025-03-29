@@ -860,7 +860,6 @@ kth_mission_3 = {
 			add_adm_power = 100
 			add_dip_power = 100
 			add_prestige = 50
-			}
 		}
 	}
 	kth_over_the_alps = {
