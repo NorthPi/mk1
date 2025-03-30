@@ -992,7 +992,7 @@ regimental_camp = {
 }
 
 fort_16th = {
-	cost = 400
+	cost = 4000
 	time = 30
 	make_obsolete = fort_15th
 	modifier = {
@@ -1676,7 +1676,7 @@ training_fields = {
 
 
 fort_17th = {
-	cost = 600
+	cost = 6000
 	time = 30
 
 	make_obsolete = fort_16th
