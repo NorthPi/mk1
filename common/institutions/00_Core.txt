@@ -546,122 +546,29 @@ new_world_i = {
 
 	trade_company_efficiency = 0.6
 
-
 	historical_start_date = 1500.1.1
 	historical_start_province = 224 #Sevilla
 
 	history = {
-		OR = {
-			AND = {
-				is_year = 1500
-				continent = europe
-				OR = {
-					owner = { has_idea = quest_for_the_new_world }
-					owner = { colony = 1 }
-				}
-			}
-			AND = {
-				is_year = 1550
-				owner = {
-					NOT = { technology_group = north_american }
-					NOT = { technology_group = mesoamerican }
-					NOT = { technology_group = south_american }
-					NOT = { technology_group = andean }
-				}
-				superregion = south_america_superregion
-			}
-			AND = {
-				is_year = 1550
-				owner = {
-					NOT = { technology_group = north_american }
-					NOT = { technology_group = mesoamerican }
-					NOT = { technology_group = south_american }
-					NOT = { technology_group = andean }
-				}
-				superregion = north_america_superregion
-			}
-			AND = {
-				is_year = 1550
-				owner = {
-					NOT = { technology_group = north_american }
-					NOT = { technology_group = mesoamerican }
-					NOT = { technology_group = south_american }
-					NOT = { technology_group = andean }
-				}
-				superregion = central_america_superregion
-			}
-			AND = {
-				is_year = 1600
-				superregion = near_east_superregion
-			}
-			AND = {
-				is_year = 1600
-				continent = europe
-			}
-			AND = {
-				is_year = 1625
-				superregion = persia_superregion
-			}
-			AND = {
-				is_year = 1650
-				superregion = india_superregion
-			}
-			
-			
-			AND = {
-				is_year = 1650
-				superregion = china_superregion
-			}
-			
-			AND = {
-				is_year = 1650
-				superregion = east_indies_superregion
-			}
-			AND = {
-				is_year = 1700
-				superregion = africa_superregion
-			}
-			is_year = 1800
-		}
+		is_year = 1500
 	}
-	
+
 	can_start = {
 		is_year = 1500
-		is_institution_enabled = renaissance
-		OR = {
-			continent = europe
-			continent = asia
-			continent = africa
-		}
-		has_port = yes
-		is_island = no
-		is_state = yes
-		OR = {
-			province_has_center_of_trade_of_level = 1
-			development = 12
-			is_capital = yes
-		}
-		is_in_capital_area = yes
+		owner = { 
+			num_of_colonists = 2
 		}
 	}
-	start_chance = 5		#in 100 for when a province can_start
-	
-	
-	on_start = institution_events.3
-	
-	
-	
 
-	
-	
+	start_chance = 5		#in 100 for when a province can_start
+
+	on_start = institution_events.3
+
 	can_embrace = {
 		always = yes
 	}
 
-
-	
 	embracement_speed = {
-	
 		modifier = {
 			factor = 1.2
 			scale = yes
@@ -671,9 +578,8 @@ new_world_i = {
 					new_world_i = 100
 				}
 			}
-			
 		}
-		
+
 		modifier = {
 			factor = 0.5
 			scale = yes
@@ -693,8 +599,7 @@ new_world_i = {
 				}
 			}
 		}
-		
-		#Port provinces in countries with colonial subjects
+
 		modifier = {
 			factor = 10
 			potential = {
@@ -722,7 +627,7 @@ new_world_i = {
 				}
 			}
 		}
-		
+
 		modifier = {
 			factor = 5
 			scale = yes
@@ -743,6 +648,7 @@ new_world_i = {
 				}
 			}
 		}
+
 		modifier = {
 			factor = 2
 			scale = yes
@@ -751,7 +657,6 @@ new_world_i = {
 					has_institution = new_world_i
 				}
 			}
-			
 			custom_trigger_tooltip = {
 				tooltip = tooltip_new_world_i_embraced
 				is_owned_by_trade_company = no
@@ -761,10 +666,9 @@ new_world_i = {
 			}
 		}
 	}
-	
-	ai_will_do = { #Cost of embracing institution must be lower than this factor * last month's regular income, and higher if loans are needed. (Or it has a more than long term goal...)
+
+	ai_will_do = {
 		factor = 24
-		
 		modifier = {
 			factor = 0.25
 			is_at_war = yes
