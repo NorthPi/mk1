@@ -19646,6 +19646,7 @@ tier_3 = {
     }
     on_upgraded = { add_or_upgrade_trade_building = yes }
 }
+}
 
 jew_house = {
     start = 379
