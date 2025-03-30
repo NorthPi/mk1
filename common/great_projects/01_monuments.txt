@@ -19916,3 +19916,65 @@ portu_house = {
 		}
 	}
 }
+
+london_guildhall = {
+    start = 236  # ID провинции Лондона
+    date = 500.01.01
+    time = { months = 180 }
+    build_cost = 1000
+    can_be_moved = no
+    move_days_per_unit_distance = 2
+    starting_tier = 1
+    type = monument
+
+    keep_trigger = {}
+
+    tier_0 = {
+        upgrade_time = { months = 0 }
+        cost_to_upgrade = { factor = 0 }
+        province_modifiers = {}
+        area_modifier = {}
+        country_modifiers = {}
+    }
+
+    tier_1 = {
+        upgrade_time = { months = 150 }
+        cost_to_upgrade = { factor = 800 }
+        province_modifiers = {
+            development_cost = -0.05
+            local_build_cost = -0.05
+        }
+        area_modifier = {}
+        country_modifiers = {}
+        on_upgraded = { add_or_upgrade_trade_building = yes }
+    }
+
+    tier_2 = {
+        upgrade_time = { months = 300 }
+        cost_to_upgrade = { factor = 1500 }
+        province_modifiers = {
+            development_cost = -0.075
+            local_build_cost = -0.075
+        }
+        area_modifier = {}
+        country_modifiers = {
+            build_cost = -0.025
+        }
+        on_upgraded = { add_or_upgrade_trade_building = yes }
+    }
+
+    tier_3 = {
+        upgrade_time = { months = 500 }
+        cost_to_upgrade = { factor = 2500 }
+        province_modifiers = {
+            development_cost = -0.1
+            local_build_cost = -0.1
+        }
+        area_modifier = {}
+        country_modifiers = {
+            build_cost = -0.05
+            idea_cost = -0.025
+        }
+        on_upgraded = { add_or_upgrade_trade_building = yes }
+    }
+}
