@@ -37,6 +37,7 @@ isr_slot_1 = {
 			}
 		}
 		effect = {
+			add_years_of_income = 1
 			delta_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT	}
