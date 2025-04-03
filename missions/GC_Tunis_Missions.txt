@@ -231,7 +231,7 @@ kth_mission_1 = {
 				}
 				add_permanent_claim = ROOT
 			}
-			lower_andalucia_area = {
+			germiyan_area = {
 				limit = {
 					AND = {
 						NOT = { owned_by = ROOT }
@@ -239,7 +239,7 @@ kth_mission_1 = {
 				}
 				add_permanent_claim = ROOT
 			}
-			upper_andalucia_area = {
+			ankara_area = {
 				limit = {
 					AND = {
 						NOT = { owned_by = ROOT }
@@ -256,19 +256,19 @@ kth_mission_1 = {
 		icon = mission_valencian_silk
 		provinces_to_highlight = {
 			OR = {
-				area = lower_andalucia_area
-				area = upper_andalucia_area
+				area = germiyan_area
+				area = ankara_area
 			}
 			NOT = { owned_by = ROOT }
 			NOT = { is_core = ROOT }
 		}
 		trigger = {
-			lower_andalucia_area = {
+			germiyan_area = {
 				type = all
 				owned_by = ROOT
 				is_core = ROOT
 			}
-			upper_andalucia_area = {
+			ankara_area = {
 				type = all
 				owned_by = ROOT
 				is_core = ROOT
@@ -276,7 +276,7 @@ kth_mission_1 = {
 		}
 		effect = {
 			custom_tooltip = "kth_upgrade_cot_to_2"
-			224	={
+			317	={
 				if={
 					limit={
 						NOT = { province_has_center_of_trade_of_level = 2 }
@@ -284,7 +284,7 @@ kth_mission_1 = {
 					add_center_of_trade_level = 1
 				}
 			}
-			toledo_area = {
+			kastamonu_area = {
 				limit = {
 					AND = {
 						NOT = { owned_by = ROOT }
@@ -452,7 +452,7 @@ kth_mission_2 = {
 				}				
 			}
 			add_prestige=10
-			1855 = {
+			330 = {
 				add_core = Z04
 			}
 			delta_area = {
@@ -481,12 +481,12 @@ kth_mission_2 = {
 		}
 		icon=mission_central_asian_city
 		provinces_to_highlight = {
-			province_id = 1855
+			province_id = 330
 			NOT = { owned_by = ROOT }
 			NOT = { is_core = ROOT }
 		}
 		trigger={
-			owns_core_province = 1855
+			owns_core_province = 330
 		}
 		effect={
 			add_stability_or_adm_power = yes
@@ -642,7 +642,7 @@ kth_mission_2 = {
 		}
 		provinces_to_highlight = {
 			OR = {
-				area = toledo_area
+				area = kastamonu_area
 				area = valencia_area
 			}
 			is_state = no
@@ -650,7 +650,7 @@ kth_mission_2 = {
 			NOT = { is_core = ROOT }
 		}
 		trigger = {
-			toledo_area = {
+			kastamonu_area = {
 				is_state = yes
 				type = ALL
 				owned_by = ROOT
@@ -668,12 +668,12 @@ kth_mission_2 = {
 			custom_tooltip = "kth_enable_carthago_nova"
 			change_technology_group = western
 			change_unit_type = western
-			1750 = {
+			2297 = {
 				add_base_tax = 2
 				add_base_production = 2
 				add_base_manpower = 2
 			}
-			221 = {
+			1848 = {
 				add_base_production = 2
 				change_trade_goods = iron
 				center_of_trade = 1
@@ -739,7 +739,7 @@ kth_mission_3 = {
 			num_of_galley=20
 		}
 		effect={
-			sicily_area={
+			northern_greece_area={
 				limit = {
 					AND = {
 						NOT = { owned_by = ROOT }
@@ -747,7 +747,7 @@ kth_mission_3 = {
 				}
 				add_permanent_claim = Z04
 			}
-			corsica_sardinia_area={
+			morea_area={
 				limit = {
 					AND = {
 						NOT = { owned_by = ROOT }
@@ -763,15 +763,15 @@ kth_mission_3 = {
 			kth_develop_navy
 		}
 		provinces_to_highlight = {
-			province_id = 4736
+			province_id = 145
 			NOT = { is_core = ROOT }
 		}
 		trigger={
-			owns_core_province = 4736
+			owns_core_province = 145
 		}
 		effect={
 			custom_tooltip = "kth_upgrade_cot_to_2"
-			125={
+			146={
 				if={
 					limit={
 						NOT = { province_has_center_of_trade_of_level = 2 }
@@ -779,7 +779,7 @@ kth_mission_3 = {
 					add_center_of_trade_level = 1
 				}				
 			}
-			calabria_area={
+			albania_area={
 				limit = {
 					AND = {
 						NOT = { owned_by = ROOT }
@@ -804,18 +804,18 @@ kth_mission_3 = {
 		}
 		provinces_to_highlight = {
 			OR = {
-				area = calabria_area
+				area = albania_area
 				area = apulia_area
-				area = sicily_area
+				area = northern_greece_area
 			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger={
-			sicily_area = {
+			northern_greece_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			calabria_area= {
+			albania_area= {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -825,7 +825,7 @@ kth_mission_3 = {
 			}
 		}
 		effect={
-			central_italy_area={
+			thrace_area={
 				limit = {
 					AND = {
 						NOT = { owned_by = ROOT }
@@ -833,7 +833,7 @@ kth_mission_3 = {
 				}
 				add_permanent_claim = Z04
 			}
-			naples_area = {
+			hudavendigar_area = {
 				limit = {
 					AND = {
 						NOT = { owned_by = ROOT }
@@ -841,6 +841,14 @@ kth_mission_3 = {
 				}
 				add_permanent_claim = Z04
 			}
+			aydin_area = {
+				limit = {
+					AND = {
+						NOT = { owned_by = ROOT }
+					}
+				}
+				add_permanent_claim = Z04
+			}			
 		}
 	}
 	kth_rome={
@@ -850,11 +858,11 @@ kth_mission_3 = {
 			kth_south_italy
 		}
 		provinces_to_highlight = {
-			province_id = 118
+			province_id = 316
 			NOT = { is_core = ROOT }
 		}
 		trigger={
-			owns_core_province = 118		
+			owns_core_province = 316		
 		}
 		effect={
 			add_adm_power = 100
@@ -982,7 +990,7 @@ kth_mission_4 = {
 			}
 		}
 		effect = {
-			add_years_of_income = 1
+			add_years_of_income = 2
 			add_navy_tradition = 5
 		}
 	}
