@@ -1,7 +1,5 @@
 capital = "Yaqui"
 is_city = yes
-culture = piman
-religion = nahuatl
 trade_goods = wool
 base_tax = 1
 base_production = 1

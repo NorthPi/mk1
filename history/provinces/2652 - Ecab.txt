@@ -1,11 +1,9 @@
 capital = "Ecab"
 is_city = yes
-culture = yucatec
-religion = nahuatl
 trade_goods = fish
 base_tax = 1
-base_production = 3
-base_manpower = 2
+base_production = 1
+base_manpower = 1
 center_of_trade = 1
 add_core = COC
 add_core = XIU

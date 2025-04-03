@@ -1,10 +1,8 @@
 capital = "Xicallanco"
 is_city = yes
-culture = chontales
-religion = nahuatl
 trade_goods = cocoa
 base_tax = 1
-base_production = 2
+base_production = 1
 base_manpower = 1
 center_of_trade = 2
 add_core = YOK

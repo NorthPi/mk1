@@ -1,10 +1,8 @@
 capital = "Catamarca"
-culture = diaguita
-religion = inti
 trade_goods = grain
 base_tax = 1
-base_production = 2
-base_manpower = 7
+base_production = 1
+base_manpower = 1
 add_core = CCQ
 discovered_by = andean
 discovered_by = high_american

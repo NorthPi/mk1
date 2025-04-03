@@ -1,9 +1,7 @@
 capital = "Antioquía"
-culture = muisca
-religion = animism
 trade_goods = salt
 base_tax = 1
-base_production = 4
+base_production = 1
 base_manpower = 1
 discovered_by = MCA
 discovered_by = andean

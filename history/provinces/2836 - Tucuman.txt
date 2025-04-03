@@ -1,10 +1,8 @@
 capital = "Tucuman"
-culture = diaguita
-religion = inti
 trade_goods = wool
 base_tax = 1
-base_production = 8
-base_manpower = 4
+base_production = 1
+base_manpower = 1
 add_core = CCQ
 discovered_by = andean
 discovered_by = high_american

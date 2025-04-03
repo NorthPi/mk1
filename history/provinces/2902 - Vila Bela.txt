@@ -1,9 +1,7 @@
 capital = "Vila Bela"
-culture = guarani
-religion = animism
 trade_goods = copper
 base_tax = 1
-base_production = 5
+base_production = 1
 base_manpower = 1
 add_core = GUA
 discovered_by = andean

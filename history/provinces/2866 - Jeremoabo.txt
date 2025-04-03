@@ -1,6 +1,4 @@
 capital = "Olavarria"
-culture = het
-religion = animism
 trade_goods = wool
 base_tax = 1
 base_production = 1

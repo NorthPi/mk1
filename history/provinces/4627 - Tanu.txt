@@ -1,6 +1,4 @@
 capital = "Tanu"
-culture = caddo
-religion = nahuatl
 trade_goods = sugar
 base_tax = 1
 base_production = 1

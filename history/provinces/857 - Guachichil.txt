@@ -1,6 +1,4 @@
 capital = "Guachichil"
-culture = aztek
-religion = nahuatl
 trade_goods = gold
 base_tax = 1
 base_production = 1

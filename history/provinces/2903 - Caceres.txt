@@ -1,10 +1,8 @@
 capital = "Caceres"
-culture = maipurean
-religion = animism
 trade_goods = grain
 base_tax = 1
-base_production = 4
-base_manpower = 2
+base_production = 1
+base_manpower = 1
 discovered_by = andean
 discovered_by = high_american
 discovered_by = mesoamerican

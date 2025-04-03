@@ -1,7 +1,5 @@
 capital = "Yohualtepec"
 is_city = yes
-culture = mixtec
-religion = nahuatl
 trade_goods = dyes
 base_tax = 1
 base_production = 1

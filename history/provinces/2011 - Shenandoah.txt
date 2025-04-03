@@ -1,6 +1,4 @@
 capital = "Manahoac"
-culture = powhatan
-religion = totemism
 trade_goods = iron
 base_tax = 1
 base_production = 1

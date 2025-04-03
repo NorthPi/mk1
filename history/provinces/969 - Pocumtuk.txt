@@ -1,7 +1,5 @@
 capital = "Pocumtuk"
 is_city = yes
-culture = mahican
-religion = totemism
 trade_goods = naval_supplies
 base_tax = 1
 base_production = 1

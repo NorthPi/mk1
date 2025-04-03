@@ -1,6 +1,4 @@
 capital = "Palus"
-culture = salish
-religion = totemism
 trade_goods = fur
 base_tax = 1
 base_production = 1

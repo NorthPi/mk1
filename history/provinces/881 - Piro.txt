@@ -1,6 +1,4 @@
 capital = "Teypana"
-culture = pueblo
-religion = totemism
 trade_goods = salt
 base_tax = 1
 base_production = 1

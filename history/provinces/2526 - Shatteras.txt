@@ -1,7 +1,5 @@
 capital = "Shatteras"
 is_city = yes
-culture = shawnee
-religion = totemism
 trade_goods = fur
 base_tax = 1
 base_production = 1

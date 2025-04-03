@@ -1,11 +1,9 @@
 capital = "Wankapampa"
 is_city = yes
-culture = inca
-religion = inti
 trade_goods = wool
 base_tax = 1
-base_production = 6
-base_manpower = 4
+base_production = 1
+base_manpower = 1
 add_core = CJA
 discovered_by = CHM
 discovered_by = andean

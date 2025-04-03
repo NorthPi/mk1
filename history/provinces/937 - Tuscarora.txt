@@ -1,7 +1,5 @@
 capital = "Tuscarora"
 is_city = yes
-culture = iroquois
-religion = totemism
 trade_goods = tobacco
 base_tax = 1
 base_production = 1

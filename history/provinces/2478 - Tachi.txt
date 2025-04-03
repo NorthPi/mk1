@@ -1,6 +1,4 @@
 capital = "Tachi"
-culture = navajo
-religion = totemism
 trade_goods = wool
 base_tax = 1
 base_production = 1

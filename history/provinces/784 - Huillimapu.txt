@@ -1,11 +1,9 @@
 capital = "Huillimapu"
 is_city = yes
-culture = mapuche
-religion = animism
 trade_goods = fish
 base_tax = 1
-base_production = 2
-base_manpower = 9
+base_production = 1
+base_manpower = 1
 add_core = MPC
 discovered_by = andean
 discovered_by = high_american

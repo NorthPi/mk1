@@ -1,11 +1,9 @@
 capital = "Ilheus"
 is_city = yes
-culture = tupinamba
-religion = animism
 trade_goods = tropical_wood
 base_tax = 1
-base_production = 3
-base_manpower = 2
+base_production = 1
+base_manpower = 1
 discovered_by = high_american
 discovered_by = mesoamerican
 discovered_by = north_american

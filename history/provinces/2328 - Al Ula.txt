@@ -1,5 +1,5 @@
-owner = HED
-controller = HED
+owner = ISR
+controller = ISR
 capital = "Al-Ula"
 is_city = yes
 religion = arianism
@@ -7,7 +7,6 @@ trade_goods = salt
 base_tax = 2
 base_production = 3
 base_manpower = 1
-add_core = HED
 add_core = ISR
 add_permanent_claim = ARB
 discovered_by = MGE

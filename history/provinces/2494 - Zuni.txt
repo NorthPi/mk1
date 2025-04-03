@@ -1,7 +1,5 @@
 capital = "Zuni"
 is_city = yes
-culture = navajo
-religion = totemism
 trade_goods = wool
 base_tax = 1
 base_production = 1

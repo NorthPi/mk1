@@ -1,9 +1,7 @@
 capital = "Bahamas"
-culture = carib
-religion = totemism
 trade_goods = unknown
-base_tax = 2
-base_production = 2
+base_tax = 1
+base_production = 1
 base_manpower = 1
 add_core = CAB
 discovered_by = andean

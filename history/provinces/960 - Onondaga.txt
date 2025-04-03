@@ -1,7 +1,5 @@
 capital = "Onondaga"
 is_city = yes
-culture = iroquois
-religion = totemism
 trade_goods = fur
 base_tax = 1
 base_production = 1

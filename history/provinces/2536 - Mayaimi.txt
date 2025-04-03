@@ -1,6 +1,4 @@
 capital = "Mayaimi"
-culture = yamasee
-religion = totemism
 trade_goods = fish
 base_tax = 1
 base_production = 1

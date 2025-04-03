@@ -1,7 +1,5 @@
 capital = "Ilheus"
 is_city = yes
-culture = chacoan
-religion = animism
 trade_goods = wool
 base_tax = 1
 base_production = 1

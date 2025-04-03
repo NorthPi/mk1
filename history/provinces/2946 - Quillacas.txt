@@ -1,11 +1,9 @@
 capital = "Quillacas"
 is_city = yes
-culture = aimara
-religion = inti
 trade_goods = gold
 base_tax = 1
-base_production = 4
-base_manpower = 2
+base_production = 1
+base_manpower = 1
 add_core = CRA
 add_core = PCJ
 discovered_by = andean

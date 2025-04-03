@@ -1,6 +1,4 @@
 capital = "Mayo"
-culture = piman
-religion = nahuatl
 trade_goods = grain
 base_tax = 1
 base_production = 1

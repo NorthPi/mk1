@@ -1,11 +1,9 @@
 capital = "Cuzco"
 is_city = yes
-culture = inca
-religion = inti
 trade_goods = gold
 base_tax = 1
-base_production = 10
-base_manpower = 10
+base_production = 1
+base_manpower = 1
 extra_cost = 8
 center_of_trade = 3
 add_core = CSU

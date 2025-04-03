@@ -1,6 +1,4 @@
 capital = "Mocoa"
-culture = jivaro
-religion = inti
 trade_goods = cocoa
 base_tax = 1
 base_production = 1

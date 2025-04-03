@@ -1,6 +1,4 @@
 capital = "Calusa"
-culture = yamasee
-religion = totemism
 trade_goods = sugar
 base_tax = 1
 base_production = 1

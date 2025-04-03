@@ -1,7 +1,5 @@
 capital = "Canyon"
 is_city = yes
-culture = navajo
-religion = totemism
 trade_goods = salt
 base_tax = 1
 base_production = 1

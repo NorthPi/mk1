@@ -1,11 +1,9 @@
 capital = "Tochtepec"
 is_city = yes
-culture = aztek
-religion = nahuatl
 trade_goods = fish
 base_tax = 1
-base_production = 4
-base_manpower = 2
+base_production = 1
+base_manpower = 1
 add_core = YOK
 discovered_by = andean
 discovered_by = high_american

@@ -1,6 +1,4 @@
 capital = "Puerto Baquerizo Moreno"
-culture = inca
-religion = inti
 trade_goods = unknown
 base_tax = 1
 base_production = 1

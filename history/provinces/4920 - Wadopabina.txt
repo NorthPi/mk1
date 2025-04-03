@@ -1,6 +1,4 @@
 capital = "Wadopabina"
-culture = nakota
-religion = totemism
 trade_goods = fur
 base_tax = 1
 base_production = 1

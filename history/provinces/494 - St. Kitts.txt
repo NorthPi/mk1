@@ -1,10 +1,8 @@
 capital = "St. Kitts"
-culture = mayan
-religion = mesoamerican_religion
 trade_goods = sugar
 base_tax = 1
-base_production = 4
-base_manpower = 4
+base_production = 1
+base_manpower = 1
 discovered_by = ARW
 discovered_by = CAB
 discovered_by = andean

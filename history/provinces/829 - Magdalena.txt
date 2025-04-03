@@ -1,11 +1,9 @@
 capital = "Tairo"
 is_city = yes
-culture = muisca
-religion = animism
 trade_goods = cocoa
 base_tax = 1
 base_production = 1
-base_manpower = 3
+base_manpower = 1
 add_core = TAI
 discovered_by = MCA
 discovered_by = andean

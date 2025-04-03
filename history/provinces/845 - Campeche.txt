@@ -1,10 +1,8 @@
 capital = "Campeche"
 is_city = yes
-culture = yucatec
-religion = nahuatl
 trade_goods = sugar
 base_tax = 1
-base_production = 4
+base_production = 1
 base_manpower = 1
 add_core = CNP
 add_core = XIU

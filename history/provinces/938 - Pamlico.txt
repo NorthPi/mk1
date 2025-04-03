@@ -1,6 +1,4 @@
 capital = "Pamlico"
-culture = powhatan
-religion = totemism
 trade_goods = tobacco
 base_tax = 1
 base_production = 1

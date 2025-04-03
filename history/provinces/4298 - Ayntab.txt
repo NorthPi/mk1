@@ -1,5 +1,5 @@
-owner = ASY
-controller = ASY
+owner = ISR
+controller = ISR
 capital = "Ayntab"
 is_city = yes
 religion = arianism
@@ -15,4 +15,4 @@ discovered_by = nomad_group
 discovered_by = ottoman
 discovered_by = western
 culture = pontic_greek
-add_core = ASY
+add_core = ISR

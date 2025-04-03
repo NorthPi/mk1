@@ -1,7 +1,5 @@
 capital = "Natchitoches"
 is_city = yes
-culture = caddo
-religion = totemism
 trade_goods = cotton
 base_tax = 1
 base_production = 1

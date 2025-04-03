@@ -1,7 +1,5 @@
 capital = "Tohome"
 is_city = yes
-culture = choctaw
-religion = totemism
 trade_goods = cotton
 base_tax = 1
 base_production = 1

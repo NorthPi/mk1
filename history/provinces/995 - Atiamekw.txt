@@ -1,6 +1,4 @@
 capital = "Tadoussac"
-culture = innu
-religion = totemism
 trade_goods = unknown
 base_tax = 1
 base_production = 1

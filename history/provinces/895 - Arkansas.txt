@@ -1,7 +1,5 @@
 capital = "Arkansas"
 is_city = yes
-culture = yoron
-religion = totemism
 trade_goods = cotton
 base_tax = 1
 base_production = 1

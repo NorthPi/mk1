@@ -1,7 +1,5 @@
 capital = "Ilheus"
 is_city = yes
-culture = tupinamba
-religion = animism
 trade_goods = cocoa
 base_tax = 1
 base_production = 1

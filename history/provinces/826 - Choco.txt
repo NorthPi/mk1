@@ -1,10 +1,8 @@
 capital = "Choco"
-culture = muisca
-religion = animism
 trade_goods = fur
 base_tax = 1
 base_production = 1
-base_manpower = 2
+base_manpower = 1
 add_core = ARW
 discovered_by = MCA
 discovered_by = andean

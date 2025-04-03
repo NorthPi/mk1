@@ -1,6 +1,4 @@
 capital = "Cowasuk"
-culture = abenaki
-religion = totemism
 trade_goods = copper
 base_tax = 1
 base_production = 1

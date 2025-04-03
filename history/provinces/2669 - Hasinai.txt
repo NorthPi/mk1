@@ -1,7 +1,5 @@
 capital = "Hasinai"
 is_city = yes
-culture = caddo
-religion = nahuatl
 trade_goods = cotton
 base_tax = 1
 base_production = 1

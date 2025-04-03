@@ -1,11 +1,9 @@
 capital = "Hatuncolla"
 is_city = yes
-culture = aimara
-religion = inti
 trade_goods = gold
 base_tax = 1
-base_production = 4
-base_manpower = 4
+base_production = 1
+base_manpower = 1
 add_core = CLA
 add_core = CRA
 discovered_by = andean

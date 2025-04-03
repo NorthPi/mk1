@@ -1,6 +1,4 @@
 capital = "Secwepemc"
-culture = athabascan
-religion = totemism
 trade_goods = grain
 base_tax = 1
 base_production = 1

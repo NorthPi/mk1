@@ -1,10 +1,8 @@
 capital = "Moxos"
-culture = guarani
-religion = inti
 trade_goods = grain
 base_tax = 1
-base_production = 2
-base_manpower = 8
+base_production = 1
+base_manpower = 1
 add_core = GUA
 discovered_by = andean
 discovered_by = high_american

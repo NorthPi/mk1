@@ -1,7 +1,5 @@
 capital = "Tionontate"
 is_city = yes
-culture = huron
-religion = totemism
 trade_goods = tobacco
 base_tax = 1
 base_production = 1

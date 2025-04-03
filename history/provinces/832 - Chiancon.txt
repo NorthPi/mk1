@@ -1,11 +1,9 @@
 capital = "Tunja"
 is_city = yes
-culture = muisca
-religion = inti
 trade_goods = gems
 base_tax = 1
-base_production = 5
-base_manpower = 2
+base_production = 1
+base_manpower = 1
 discovered_by = MCA
 discovered_by = andean
 discovered_by = high_american

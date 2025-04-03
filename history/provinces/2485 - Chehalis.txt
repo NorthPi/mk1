@@ -1,6 +1,4 @@
 capital = "Chehalis"
-culture = salish
-religion = totemism
 trade_goods = fish
 base_tax = 1
 base_production = 1

@@ -1,7 +1,5 @@
 capital = "Madawaska"
 is_city = yes
-culture = maliseet
-religion = totemism
 trade_goods = naval_supplies
 base_tax = 1
 base_production = 1

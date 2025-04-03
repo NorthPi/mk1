@@ -1,11 +1,9 @@
 capital = "Xoconochco"
 is_city = yes
-culture = highland_mayan
-religion = mesoamerican_religion
 trade_goods = cocoa
 base_tax = 1
-base_production = 3
-base_manpower = 2
+base_production = 1
+base_manpower = 1
 add_core = ZAP
 discovered_by = andean
 discovered_by = high_american

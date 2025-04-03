@@ -1,9 +1,7 @@
 capital = "Wayuu"
-culture = guajiro
-religion = animism
 trade_goods = unknown
 base_tax = 1
-base_production = 2
+base_production = 1
 base_manpower = 1
 discovered_by = MCA
 discovered_by = andean

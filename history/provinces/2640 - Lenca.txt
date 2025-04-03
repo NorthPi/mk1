@@ -1,10 +1,8 @@
 capital = "Lenca"
-culture = miskito
-religion = nahuatl
 trade_goods = fish
 base_tax = 1
 base_production = 1
-base_manpower = 2
+base_manpower = 1
 add_core = MIS
 discovered_by = andean
 discovered_by = high_american

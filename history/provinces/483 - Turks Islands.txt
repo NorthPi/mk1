@@ -1,9 +1,7 @@
 capital = "Grand Turk"
-culture = carib
-religion = totemism
 trade_goods = cotton
-base_tax = 3
-base_production = 3
+base_tax = 1
+base_production = 1
 base_manpower = 1
 add_core = CAB
 add_core = CRE

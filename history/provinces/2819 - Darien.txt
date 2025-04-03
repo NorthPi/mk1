@@ -1,10 +1,8 @@
 capital = "Darien"
-culture = muisca
-religion = animism
 trade_goods = naval_supplies
 base_tax = 1
-base_production = 2
-base_manpower = 5
+base_production = 1
+base_manpower = 1
 discovered_by = MCA
 discovered_by = andean
 discovered_by = high_american

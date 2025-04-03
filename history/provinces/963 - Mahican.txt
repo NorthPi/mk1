@@ -1,6 +1,6 @@
 capital = "Mahican"
-culture = mahican
-religion = totemism
+culture = american
+religion = arianism
 trade_goods = fur
 base_tax = 1
 base_production = 1
