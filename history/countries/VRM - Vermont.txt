@@ -4,4 +4,4 @@ technology_group = western
 religion = arianism
 primary_culture = american
 capital = 965
-add_government_reform = oligarchy_reform
+add_government_reform = american_republic
