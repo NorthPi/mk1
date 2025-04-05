@@ -1,17 +1,20 @@
-owner = ANU
-controller = ANU
-capital = "Akita"
-is_city = yes
-culture = ainu
+#4192 - Ugo
+owner = TKG
+controller = TKG
+culture = togoku
 religion = shinto
+capital = "Akita"
 trade_goods = fish
-base_tax = 3
+base_tax = 2
+base_manpower = 2
 base_production = 2
-base_manpower = 3
-discovered_by = ANU
-discovered_by = KHA
+is_city = yes
+discovered_by = chinese
 discovered_by = MCH
+discovered_by = KHA
 discovered_by = OIR
 discovered_by = QNG
-discovered_by = chinese
-add_core = ANU
+discovered_by = ANU
+1542.1.1 = { discovered_by = POR }
+1602.5.17 = { controller = STK add_core = STK }
+add_core = TKG

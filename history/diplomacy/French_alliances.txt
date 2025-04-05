@@ -17,6 +17,12 @@ alliance = {
 	end_date = 1568.1.1
 }
 alliance = {
+	first = ISR
+	second = BBY
+	start_date = 1444.1.1
+	end_date = 1568.1.1
+}
+alliance = {
 	first = z06
 	second = Z17
 	start_date = 1444.1.1

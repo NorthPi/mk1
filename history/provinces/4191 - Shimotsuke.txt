@@ -1,8 +1,8 @@
-owner = ANU
-controller = ANU
+owner = TKG
+controller = TKG
 capital = "Utsunomiya"
 is_city = yes
-culture = ainu
+culture = togoku
 religion = shinto
 trade_goods = grain
 base_tax = 3
@@ -14,4 +14,4 @@ discovered_by = MCH
 discovered_by = OIR
 discovered_by = QNG
 discovered_by = chinese
-add_core = ANU
+add_core = TKG
