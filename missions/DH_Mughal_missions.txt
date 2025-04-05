@@ -10,13 +10,13 @@ mug_timurid_resurgence = {
 		NOT = { has_dlc = "Winds of Change" }
 	}
 	potential = {
-		tag = MUG
+		tag = PUN
 		OR = {
 			has_dlc = "Dharma"
 			has_dlc = "King of Kings"
 		}
 		NOT = { has_dlc = "Winds of Change" }
-		NOT = { map_setup = map_setup_random }
+		
 	}
 	has_country_shield = yes
 	
@@ -298,13 +298,13 @@ mug_towards_china = {
 		NOT = { has_dlc = "Winds of Change" }
 	}
 	potential = {
-		tag = MUG
+		tag = PUN
 		OR = {
 			has_dlc = "Dharma"
 			has_dlc = "King of Kings"
 		}
 		NOT = { has_dlc = "Winds of Change" }
-		NOT = { map_setup = map_setup_random }
+		
 	}
 	has_country_shield = yes
 	
@@ -511,13 +511,13 @@ mug_land_assesement = {
 		NOT = { has_dlc = "Winds of Change" }
 	}
 	potential = {
-		tag = MUG
+		tag = PUN
 		OR = {
 			has_dlc = "Dharma"
 			has_dlc = "King of Kings"
 		}
 		NOT = { has_dlc = "Winds of Change" }
-		NOT = { map_setup = map_setup_random }
+		
 	}
 	has_country_shield = yes
 	
@@ -555,13 +555,13 @@ mug_indus_branch = {
 		NOT = { has_dlc = "Winds of Change" }
 	}
 	potential = {
-		tag = MUG
+		tag = PUN
 		OR = {
 			has_dlc = "Dharma"
 			has_dlc = "King of Kings"
 		}
 		NOT = { has_dlc = "Winds of Change" }
-		NOT = { map_setup = map_setup_random }
+		
 	}
 	has_country_shield = yes
 	
@@ -616,13 +616,13 @@ mug_ganges_branch = {
 		NOT = { has_dlc = "Winds of Change" }
 	}
 	potential = {
-		tag = MUG
+		tag = PUN
 		OR = {
 			has_dlc = "Dharma"
 			has_dlc = "King of Kings"
 		}
 		NOT = { has_dlc = "Winds of Change" }
-		NOT = { map_setup = map_setup_random }
+		
 	}
 	has_country_shield = yes
 	
@@ -1076,13 +1076,13 @@ mug_hindustan_branch = {
 		NOT = { has_dlc = "Winds of Change" }
 	}
 	potential = {
-		tag = MUG
+		tag = PUN
 		OR = {
 			has_dlc = "Dharma"
 			has_dlc = "King of Kings"
 		}
 		NOT = { has_dlc = "Winds of Change" }
-		NOT = { map_setup = map_setup_random }
+		
 	}
 	has_country_shield = yes
 	
@@ -1422,13 +1422,13 @@ mug_desh = {
 		NOT = { has_dlc = "Winds of Change" }
 	}
 	potential = {
-		tag = MUG
+		tag = PUN
 		OR = {
 			has_dlc = "Dharma"
 			has_dlc = "King of Kings"
 		}
 		NOT = { has_dlc = "Winds of Change" }
-		NOT = { map_setup = map_setup_random }
+		
 	}
 	has_country_shield = yes
 	
@@ -1477,13 +1477,13 @@ mug_sufis = {
 		NOT = { has_dlc = "Winds of Change" }
 	}
 	potential = {
-		tag = MUG
+		tag = PUN
 		OR = {
 			has_dlc = "Dharma"
 			has_dlc = "King of Kings"
 		}
 		NOT = { has_dlc = "Winds of Change" }
-		NOT = { map_setup = map_setup_random }
+		
 	}
 	has_country_shield = yes
 	
@@ -1579,13 +1579,13 @@ mug_rajput_branch = {
 		NOT = { has_dlc = "Winds of Change" }
 	}
 	potential = {
-		tag = MUG
+		tag = PUN
 		OR = {
 			has_dlc = "Dharma"
 			has_dlc = "King of Kings"
 		}
 		NOT = { has_dlc = "Winds of Change" }
-		NOT = { map_setup = map_setup_random }
+		
 	}
 	has_country_shield = yes
 	
@@ -1833,13 +1833,13 @@ mug_hyderabad_branch = {
 		NOT = { has_dlc = "Winds of Change" }
 	}
 	potential = {
-		tag = MUG
+		tag = PUN
 		OR = {
 			has_dlc = "Dharma"
 			has_dlc = "King of Kings"
 		}
 		NOT = { has_dlc = "Winds of Change" }
-		NOT = { map_setup = map_setup_random }
+		
 	}
 	has_country_shield = yes
 	
@@ -1952,13 +1952,13 @@ mug_deccan_branch = {
 		NOT = { has_dlc = "Winds of Change" }
 	}
 	potential = {
-		tag = MUG
+		tag = PUN
 		OR = {
 			has_dlc = "Dharma"
 			has_dlc = "King of Kings"
 		}
 		NOT = { has_dlc = "Winds of Change" }
-		NOT = { map_setup = map_setup_random }
+		
 	}
 	has_country_shield = yes
 	

@@ -6,7 +6,7 @@ WoC_mughals_1 = {
 		has_dlc = "Winds of Change"
 	}
 	potential = {
-		tag = MUG
+		tag = PUN
 		has_dlc = "Winds of Change"
 	}
 	has_country_shield = yes
@@ -596,7 +596,7 @@ WoC_mughals_2 = {
 		has_dlc = "Winds of Change"
 	}
 	potential = {
-		tag = MUG
+		tag = PUN
 		has_dlc = "Winds of Change"
 	}
 	has_country_shield = yes
@@ -1136,7 +1136,7 @@ WoC_mughals_3 = {
 		has_dlc = "Winds of Change"
 	}
 	potential = {
-		tag = MUG
+		tag = PUN
 		has_dlc = "Winds of Change"
 	}
 	has_country_shield = yes
@@ -1605,7 +1605,7 @@ WoC_mughals_4 = {
 		has_dlc = "Winds of Change"
 	}
 	potential = {
-		tag = MUG
+		tag = PUN
 		has_dlc = "Winds of Change"
 	}
 	has_country_shield = yes
@@ -1934,7 +1934,7 @@ WoC_mughals_4_locked = {
 		has_dlc = "Winds of Change"
 	}
 	potential = {
-		tag = MUG
+		tag = PUN
 		has_dlc = "Winds of Change"
 		NOT = { has_country_flag = MUG_unlock_malaccan_viceroyalty_mission_flag_ayutthaya }
 		NOT = { has_country_flag = MUG_unlock_malaccan_viceroyalty_mission_flag_coromandel }
@@ -2018,7 +2018,7 @@ WoC_mughals_4_coromandel = {
 		has_dlc = "Winds of Change"
 	}
 	potential = {
-		tag = MUG
+		tag = PUN
 		has_dlc = "Winds of Change"
 		has_country_flag = MUG_unlock_malaccan_viceroyalty_mission_flag_coromandel
 	}
@@ -2102,7 +2102,7 @@ WoC_mughals_4_ayutthaya = {
 		has_dlc = "Winds of Change"
 	}
 	potential = {
-		tag = MUG
+		tag = PUN
 		has_dlc = "Winds of Change"
 		has_country_flag = MUG_unlock_malaccan_viceroyalty_mission_flag_ayutthaya
 	}
@@ -2186,7 +2186,7 @@ WoC_mughals_4_2 = {
 		has_dlc = "Winds of Change"
 	}
 	potential = {
-		tag = MUG
+		tag = PUN
 		has_dlc = "Winds of Change"
 	}
 	has_country_shield = yes
@@ -2462,7 +2462,7 @@ WoC_mughals_5 = {
 		has_dlc = "Winds of Change"
 	}
 	potential = {
-		tag = MUG
+		tag = PUN
 		has_dlc = "Winds of Change"
 	}
 	has_country_shield = yes

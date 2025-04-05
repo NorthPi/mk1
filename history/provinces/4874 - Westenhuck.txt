@@ -1,6 +1,4 @@
 capital = "Westenhuck"
-culture = american
-religion = arianism
 trade_goods = naval_supplies
 base_tax = 1
 base_production = 1
@@ -15,6 +13,3 @@ native_size = 5
 native_ferocity = 1
 native_hostileness = 2
 is_city = no
-add_core = VRM
-owner = VRM
-controller = VRM

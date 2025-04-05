@@ -14,7 +14,7 @@ woc_moghulistan_1 = {
 				OR = {
 					is_mongol_nation = yes
 					is_tatar_nation = yes
-					tag = MGE
+					tag = PUN
 					tag = YUA
 					tag = ILK
 					tag = GLH
@@ -23,7 +23,6 @@ woc_moghulistan_1 = {
 		}
 		NOT = { was_mongol_nation = yes }
 		NOT = { was_tatar_nation = yes }
-		has_dlc = "Winds of Change"
 	}
 
 	moghulistan_kazakhs = {
@@ -340,7 +339,7 @@ woc_moghulistan_2 = {
 				OR = {
 					is_mongol_nation = yes
 					is_tatar_nation = yes
-					tag = MGE
+					tag = PUN
 					tag = YUA
 					tag = ILK
 					tag = GLH
@@ -625,7 +624,7 @@ woc_moghulistan_3 = {
 				OR = {
 					is_mongol_nation = yes
 					is_tatar_nation = yes
-					tag = MGE
+					tag = PUN
 					tag = YUA
 					tag = ILK
 					tag = GLH
@@ -908,7 +907,7 @@ woc_moghulistan_3 = {
 			moghulistan_russia
 		}
 		trigger = {  
-			tag = MGE
+			tag = PUN
 			mission_completed = moghulistan_anatolia
 			mission_completed = moghulistan_dragon_throne
 		} 
@@ -953,7 +952,7 @@ woc_moghulistan_4 = {
 				OR = {
 					is_mongol_nation = yes
 					is_tatar_nation = yes
-					tag = MGE
+					tag = PUN
 					tag = YUA
 					tag = ILK
 					tag = GLH
@@ -1229,7 +1228,7 @@ woc_moghulistan_5 = {
 				OR = {
 					is_mongol_nation = yes
 					is_tatar_nation = yes
-					tag = MGE
+					tag = PUN
 					tag = YUA
 					tag = ILK
 					tag = GLH
