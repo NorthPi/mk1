@@ -19569,7 +19569,7 @@ carthaginian_lighthouse = {
 		}
 		country_modifiers = {
 			naval_attrition = -0.15
-			naval_morale = 0.15
+			naval_morale = 0.05
 		}
 		on_upgraded = {
 			add_or_upgrade_trade_building = yes
