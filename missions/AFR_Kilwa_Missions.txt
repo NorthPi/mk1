@@ -8,8 +8,8 @@ kilwa_cape_missions_slot = {
 	}
 	potential = {
 		has_dlc = "Origins"
-		NOT = { map_setup = map_setup_random }
-		tag = ZAN
+
+		tag = ZUL
 	}
 	has_country_shield = yes
 
@@ -226,8 +226,8 @@ kilwa_internal_missions_slot = {
 	}
 	potential = {
 		has_dlc = "Origins"
-		NOT = { map_setup = map_setup_random }
-		tag = ZAN
+
+		tag = ZUL
 	}
 	has_country_shield = yes
 
@@ -437,8 +437,8 @@ kilwa_trade_conquest_missions_slot = {
 	}
 	potential = {
 		has_dlc = "Origins"
-		NOT = { map_setup = map_setup_random }
-		tag = ZAN
+
+		tag = ZUL
 	}
 	has_country_shield = yes
 
@@ -700,8 +700,8 @@ kilwa_asia_trade_missions_slot = {
 	}
 	potential = {
 		has_dlc = "Origins"
-		NOT = { map_setup = map_setup_random }
-		tag = ZAN
+
+		tag = ZUL
 	}
 	has_country_shield = yes
 
@@ -912,8 +912,8 @@ kilwa_colonization_missions_slot = {
 	}
 	potential = {
 		has_dlc = "Origins"
-		NOT = { map_setup = map_setup_random }
-		tag = ZAN
+
+		tag = ZUL
 	}
 	has_country_shield = yes
 
