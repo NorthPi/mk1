@@ -13,3 +13,8 @@ native_ferocity = 1
 2 = { 
 }
 is_city = no
+add_core = VRM
+owner = VRM
+culture = american
+religion = arianism
+controller = VRM
